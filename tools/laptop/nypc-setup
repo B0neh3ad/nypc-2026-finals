@@ -1,0 +1,114 @@
+#!/usr/bin/env bash
+# nypc-setup — 내 노트북에서 서버 접속을 설정하고 점검합니다. 한 번만 돌리면 됩니다.
+#
+#   ./nypc-setup <내-아이디> <통합자가-보낸-키-파일>
+#   ./nypc-setup jinyoung ~/Downloads/nypc_ec2
+#
+# 하는 일: Tailscale 확인 → 키 설치(600) → ~/.ssh/config 에 Host nypc 추가(백업)
+#          → 접속 확인 → 서버에서 doctor.sh 실행.
+# 아무것도 덮어쓰지 않습니다. 이미 있으면 알려주고 멈춥니다.
+set -uo pipefail
+
+SERVER_HOST="<서버-호스트명>"
+ALIAS="nypc"
+KEY="${HOME}/.ssh/nypc_ec2"
+CONFIG="${HOME}/.ssh/config"
+MEMBERS="jinsu jinyoung sehyeon inhyeok"
+
+ID="${1:-}"; SRC="${2:-}"
+ok()   { printf '  \033[32mOK\033[0m   %s\n' "$*"; }
+bad()  { printf '  \033[31m실패\033[0m %s\n' "$*"; }
+note() { printf '  \033[33m·\033[0m    %s\n' "$*"; }
+
+if [[ -z "$ID" ]]; then
+  echo "사용법: $0 <내-아이디> [키파일]" >&2
+  echo "  아이디: ${MEMBERS}" >&2
+  exit 2
+fi
+printf '%s\n' $MEMBERS | grep -qx "$ID" || { echo "모르는 아이디: ${ID} (${MEMBERS})" >&2; exit 2; }
+
+echo "== Tailscale =="
+TS=""
+for c in tailscale /usr/bin/tailscale /Applications/Tailscale.app/Contents/MacOS/Tailscale; do
+  command -v "$c" >/dev/null 2>&1 && "$c" version >/dev/null 2>&1 && { TS="$c"; break; }
+done
+if [[ -z "$TS" ]]; then
+  bad "Tailscale 이 없습니다. 설치하고 팀 tailnet 초대를 수락한 뒤 다시 실행하세요."
+  exit 1
+elif "$TS" status >/dev/null 2>&1; then
+  ok "연결됨"
+else
+  bad "Tailscale 이 로그인되어 있지 않습니다. 로그인 후 다시 실행하세요."
+  exit 1
+fi
+
+echo "== 키 =="
+mkdir -p "${HOME}/.ssh"; chmod 700 "${HOME}/.ssh"
+if [[ -f "$KEY" ]]; then
+  ok "이미 있음: ${KEY}"
+  [[ -n "$SRC" ]] && note "인자로 준 키는 무시했습니다 (덮어쓰지 않습니다)"
+elif [[ -n "$SRC" ]]; then
+  [[ -f "$SRC" ]] || { bad "키 파일이 없습니다: ${SRC}"; exit 2; }
+  grep -q 'PRIVATE KEY' "$SRC" || { bad "${SRC} 는 개인키처럼 보이지 않습니다 (.pub 말고 확장자 없는 쪽)"; exit 2; }
+  install -m 600 "$SRC" "$KEY" && ok "설치됨: ${KEY}"
+else
+  bad "${KEY} 가 없습니다. 통합자가 보낸 키 파일 경로를 인자로 주세요."
+  exit 2
+fi
+chmod 600 "$KEY"
+command -v ssh-keygen >/dev/null && note "지문 $(ssh-keygen -lf "$KEY" 2>/dev/null | awk '{print $2}')"
+
+echo "== SSH 설정 =="
+touch "$CONFIG"; chmod 600 "$CONFIG"
+if grep -qE "^[[:space:]]*Host[[:space:]]+${ALIAS}([[:space:]]|$)" "$CONFIG"; then
+  cur_user="$(ssh -G "$ALIAS" 2>/dev/null | awk '/^user /{print $2}')"
+  cur_host="$(ssh -G "$ALIAS" 2>/dev/null | awk '/^hostname /{print $2}')"
+  if [[ "$cur_user" == "$ID" ]]; then
+    ok "'${ALIAS}' 이미 설정됨 → ${cur_user}@${cur_host}"
+  else
+    bad "'${ALIAS}' 가 이미 있는데 ${cur_user}@${cur_host} 를 가리킵니다"
+    note "${CONFIG} 를 직접 고치세요. 덮어쓰지 않습니다."
+    exit 1
+  fi
+else
+  cp "$CONFIG" "${CONFIG}.bak-nypc-$(date +%Y%m%d%H%M%S)"
+  { printf '\nHost %s\n' "$ALIAS"
+    printf '  HostName %s\n' "$SERVER_HOST"
+    printf '  User %s\n' "$ID"
+    printf '  IdentityFile ~/.ssh/nypc_ec2\n'
+    printf '  IdentitiesOnly yes\n'; } >> "$CONFIG"
+  ok "'${ALIAS}' 추가됨 (백업 ${CONFIG}.bak-nypc-*)"
+fi
+
+echo "== 접속 =="
+if ssh -o BatchMode=yes -o ConnectTimeout=20 -o StrictHostKeyChecking=accept-new "$ALIAS" true 2>/dev/null; then
+  ok "로그인 성공: $(ssh -o BatchMode=yes "$ALIAS" 'echo $(whoami)@$(hostname)')"
+else
+  bad "로그인 실패"
+  note "진단: ssh -v ${ALIAS}"
+  note "키가 서버에 등록되지 않았을 수 있습니다 — 통합자에게 문의하세요."
+  exit 1
+fi
+
+echo "== 서버 환경 =="
+if ! ssh -o BatchMode=yes "$ALIAS" 'test -x ~/shared/tools/doctor.sh' 2>/dev/null; then
+  bad "~/shared/tools/doctor.sh 가 없습니다"
+  note "공유 폴더 링크(~/shared)가 없거나 다른 계정으로 접속됐습니다. 통합자에게 문의하세요."
+  exit 1
+fi
+ssh -o BatchMode=yes "$ALIAS" '~/shared/tools/doctor.sh' 2>&1 | sed 's/^/  /'
+rc=${PIPESTATUS[0]}
+
+echo
+if [[ "$rc" -eq 0 ]]; then
+  cat <<EOF
+준비 끝났습니다.
+
+  ssh ${ALIAS}
+  cat ~/shared/ONBOARD.md      # 5분짜리 안내
+  cat ~/shared/CLAUDE.md       # 규정과 서버 사용법
+EOF
+else
+  echo "doctor.sh 에 FAIL 이 있습니다. 위 출력을 통합자에게 보여주세요."
+fi
+exit "$rc"

@@ -1,0 +1,388 @@
+{
+  "heading": "중간평가 #17 · 8월 29일 15:00:00+9",
+  "battles": [
+    {
+      "battle_id": "679508",
+      "opponent": "역대급 물로켓",
+      "opp_perf": "1940",
+      "my_record": "1전 1승 (100.00%)",
+      "logs": [
+        {
+          "game": 1,
+          "url": "(만료된 프리사인드 URL 제거됨)",
+          "pgn": "[P1 \"Team 역대급 물로켓\"]\n[P2 \"Team CPG\"]\n[Result \"0-1\"]"
+        }
+      ]
+    },
+    {
+      "battle_id": "679499",
+      "opponent": "고양이와 집사",
+      "opp_perf": "1850",
+      "my_record": "1전 1승 (100.00%)",
+      "logs": [
+        {
+          "game": 1,
+          "url": "(만료된 프리사인드 URL 제거됨)",
+          "pgn": "[P1 \"Team 고양이와 집사\"]\n[P2 \"Team CPG\"]\n[Result \"0-1\"]"
+        }
+      ]
+    },
+    {
+      "battle_id": "679534",
+      "opponent": "C_4=K_{2,2}",
+      "opp_perf": "1760",
+      "my_record": "1전 1승 (100.00%)",
+      "logs": [
+        {
+          "game": 1,
+          "url": "(만료된 프리사인드 URL 제거됨)",
+          "pgn": "[P1 \"Team C_4=K_{2,2}\"]\n[P2 \"Team CPG\"]\n[Result \"0-1\"]"
+        }
+      ]
+    },
+    {
+      "battle_id": "679539",
+      "opponent": "Decagrammaton",
+      "opp_perf": "1700",
+      "my_record": "1전 1승 (100.00%)",
+      "logs": [
+        {
+          "game": 1,
+          "url": "(만료된 프리사인드 URL 제거됨)",
+          "pgn": "[P1 \"Team CPG\"]\n[P2 \"Team Decagrammaton\"]\n[Result \"1-0\"]"
+        }
+      ]
+    },
+    {
+      "battle_id": "679541",
+      "opponent": "deepsick",
+      "opp_perf": "1670",
+      "my_record": "1전 1승 (100.00%)",
+      "logs": [
+        {
+          "game": 1,
+          "url": "(만료된 프리사인드 URL 제거됨)",
+          "pgn": "[P1 \"Team CPG\"]\n[P2 \"Team deepsick\"]\n[Result \"1-0\"]"
+        }
+      ]
+    },
+    {
+      "battle_id": "679373",
+      "opponent": "AI 바보들",
+      "opp_perf": "1670",
+      "my_record": "1전 1승 (100.00%)",
+      "logs": [
+        {
+          "game": 1,
+          "url": "(만료된 프리사인드 URL 제거됨)",
+          "pgn": "[P1 \"Team AI 바보들\"]\n[P2 \"Team CPG\"]\n[Result \"0-1\"]"
+        }
+      ]
+    },
+    {
+      "battle_id": "679478",
+      "opponent": "Re:Entropy",
+      "opp_perf": "1540",
+      "my_record": "1전 1승 (100.00%)",
+      "logs": [
+        {
+          "game": 1,
+          "url": "(만료된 프리사인드 URL 제거됨)",
+          "pgn": "[P1 \"Team Re:Entropy\"]\n[P2 \"Team CPG\"]\n[Result \"0-1\"]"
+        }
+      ]
+    },
+    {
+      "battle_id": "679516",
+      "opponent": "캥캥캥캥캥캥",
+      "opp_perf": "1370",
+      "my_record": "1전 1승 (100.00%)",
+      "logs": [
+        {
+          "game": 1,
+          "url": "(만료된 프리사인드 URL 제거됨)",
+          "pgn": "[P1 \"Team 캥캥캥캥캥캥\"]\n[P2 \"Team CPG\"]\n[Result \"0-1\"]"
+        }
+      ]
+    },
+    {
+      "battle_id": "679313",
+      "opponent": "0262",
+      "opp_perf": "1370",
+      "my_record": "1전 1승 (100.00%)",
+      "logs": [
+        {
+          "game": 1,
+          "url": "(만료된 프리사인드 URL 제거됨)",
+          "pgn": "[P1 \"Team 0262\"]\n[P2 \"Team CPG\"]\n[Result \"0-1\"]"
+        }
+      ]
+    },
+    {
+      "battle_id": "679334",
+      "opponent": "thanhchauns2",
+      "opp_perf": "1300",
+      "my_record": "1전 1승 (100.00%)",
+      "logs": [
+        {
+          "game": 1,
+          "url": "(만료된 프리사인드 URL 제거됨)",
+          "pgn": "[P1 \"Team thanhchauns2\"]\n[P2 \"Team CPG\"]\n[Result \"0-1\"]"
+        }
+      ]
+    },
+    {
+      "battle_id": "679453",
+      "opponent": "예쁜 말 고운 말 - 1558",
+      "opp_perf": "1130",
+      "my_record": "1전 1승 (100.00%)",
+      "logs": [
+        {
+          "game": 1,
+          "url": "(만료된 프리사인드 URL 제거됨)",
+          "pgn": "[P1 \"Team 예쁜 말 고운 말 - 1558\"]\n[P2 \"Team CPG\"]\n[Result \"0-1\"]"
+        }
+      ]
+    },
+    {
+      "battle_id": "679529",
+      "opponent": "Ferris",
+      "opp_perf": "1130",
+      "my_record": "1전 1승 (100.00%)",
+      "logs": [
+        {
+          "game": 1,
+          "url": "(만료된 프리사인드 URL 제거됨)",
+          "pgn": "[P1 \"Team Ferris\"]\n[P2 \"Team CPG\"]\n[Result \"0-1\"]"
+        }
+      ]
+    },
+    {
+      "battle_id": "679540",
+      "opponent": "DeepRed",
+      "opp_perf": "840",
+      "my_record": "1전 1승 (100.00%)",
+      "logs": [
+        {
+          "game": 1,
+          "url": "(만료된 프리사인드 URL 제거됨)",
+          "pgn": "[P1 \"Team CPG\"]\n[P2 \"Team DeepRed\"]\n[Result \"1-0\"]"
+        }
+      ]
+    },
+    {
+      "battle_id": "679354",
+      "opponent": "돌",
+      "opp_perf": "2110",
+      "my_record": "1전 0.5승 (50.00%)",
+      "logs": [
+        {
+          "game": 1,
+          "url": "(만료된 프리사인드 URL 제거됨)",
+          "pgn": "[P1 \"Team 돌\"]\n[P2 \"Team CPG\"]\n[Result \"1/2-1/2\"]"
+        }
+      ]
+    },
+    {
+      "battle_id": "679424",
+      "opponent": "모지리들",
+      "opp_perf": "1200",
+      "my_record": "1전 0.5승 (50.00%)",
+      "logs": [
+        {
+          "game": 1,
+          "url": "(만료된 프리사인드 URL 제거됨)",
+          "pgn": "[P1 \"Team 모지리들\"]\n[P2 \"Team CPG\"]\n[Result \"1/2-1/2\"]"
+        }
+      ]
+    },
+    {
+      "battle_id": "679542",
+      "opponent": "NEXT NATION",
+      "opp_perf": "2540",
+      "my_record": "1전 0승 (0.00%)",
+      "logs": [
+        {
+          "game": 1,
+          "url": "(만료된 프리사인드 URL 제거됨)",
+          "pgn": "[P1 \"Team CPG\"]\n[P2 \"Team NEXT NATION\"]\n[Result \"0-1\"]"
+        }
+      ]
+    },
+    {
+      "battle_id": "679408",
+      "opponent": "안녕하세요민이입니다잘부탁드립니다",
+      "opp_perf": "2520",
+      "my_record": "1전 0승 (0.00%)",
+      "logs": [
+        {
+          "game": 1,
+          "url": "(만료된 프리사인드 URL 제거됨)",
+          "pgn": "[P1 \"Team 안녕하세요민이입니다잘부탁드립니다\"]\n[P2 \"Team CPG\"]\n[Result \"1-0\"]"
+        }
+      ]
+    },
+    {
+      "battle_id": "679466",
+      "opponent": "빔앤권",
+      "opp_perf": "2180",
+      "my_record": "1전 0승 (0.00%)",
+      "logs": [
+        {
+          "game": 1,
+          "url": "(만료된 프리사인드 URL 제거됨)",
+          "pgn": "[P1 \"Team 빔앤권\"]\n[P2 \"Team CPG\"]\n[Result \"1-0\"]"
+        }
+      ]
+    },
+    {
+      "battle_id": "679391",
+      "opponent": "따뜻한밥상",
+      "opp_perf": "2180",
+      "my_record": "1전 0승 (0.00%)",
+      "logs": [
+        {
+          "game": 1,
+          "url": "(만료된 프리사인드 URL 제거됨)",
+          "pgn": "[P1 \"Team 따뜻한밥상\"]\n[P2 \"Team CPG\"]\n[Result \"1-0\"]"
+        }
+      ]
+    },
+    {
+      "battle_id": "679439",
+      "opponent": "봇이지 뭐",
+      "opp_perf": "2070",
+      "my_record": "1전 0승 (0.00%)",
+      "logs": [
+        {
+          "game": 1,
+          "url": "(만료된 프리사인드 URL 제거됨)",
+          "pgn": "[P1 \"Team 봇이지 뭐\"]\n[P2 \"Team CPG\"]\n[Result \"1-0\"]"
+        }
+      ]
+    },
+    {
+      "battle_id": "679523",
+      "opponent": "윤호와 함께 춤을",
+      "opp_perf": "1940",
+      "my_record": "1전 0승 (0.00%)",
+      "logs": [
+        {
+          "game": 1,
+          "url": "(만료된 프리사인드 URL 제거됨)",
+          "pgn": "[P1 \"Team 윤호와 함께 춤을\"]\n[P2 \"Team CPG\"]\n[Result \"1-0\"]"
+        }
+      ]
+    },
+    {
+      "battle_id": "679489",
+      "opponent": "Dorillas",
+      "opp_perf": "1400",
+      "my_record": "1전 0승 (0.00%)",
+      "logs": [
+        {
+          "game": 1,
+          "url": "(만료된 프리사인드 URL 제거됨)",
+          "pgn": "[P1 \"Team Dorillas\"]\n[P2 \"Team CPG\"]\n[Result \"1-0\"]"
+        }
+      ]
+    }
+  ],
+  "submission": {
+    "id": "134558",
+    "submitted_at": "8월 29일 14:53:25+9",
+    "result": "3.5승 ( 3 / 1 / 1 ) 1880",
+    "note": "Sehyeon_v7",
+    "code_url": "(만료된 프리사인드 URL 제거됨)",
+    "file": "submission_134558.cpp"
+  },
+  "rounds_overview": [
+    [
+      "8월 29일 15:00:00+9",
+      "18809위 / 23팀",
+      "Sehyeon_v7"
+    ],
+    [
+      "8월 29일 14:45:00+9",
+      "20704위 / 23팀",
+      "inhyuk_v6"
+    ],
+    [
+      "8월 29일 14:30:00+9",
+      "199010위 / 23팀",
+      "inhyuk_v6"
+    ],
+    [
+      "8월 29일 14:15:00+9",
+      "21103위 / 23팀",
+      "inhyuk_v6"
+    ],
+    [
+      "8월 29일 14:00:00+9",
+      "20304위 / 23팀",
+      ""
+    ],
+    [
+      "8월 29일 13:45:00+9",
+      "19502위 / 23팀",
+      ""
+    ],
+    [
+      "8월 29일 13:30:00+9",
+      "19105위 / 23팀",
+      ""
+    ],
+    [
+      "8월 29일 13:15:00+9",
+      "18105위 / 23팀",
+      ""
+    ],
+    [
+      "8월 29일 13:00:00+9",
+      "19705위 / 23팀",
+      ""
+    ],
+    [
+      "8월 29일 12:45:00+9",
+      "20603위 / 23팀",
+      ""
+    ],
+    [
+      "8월 29일 12:30:00+9",
+      "20602위 / 23팀",
+      ""
+    ],
+    [
+      "8월 29일 12:15:00+9",
+      "172010위 / 23팀",
+      ""
+    ],
+    [
+      "8월 29일 12:00:00+9",
+      "18608위 / 23팀",
+      ""
+    ],
+    [
+      "8월 29일 11:45:00+9",
+      "18903위 / 23팀",
+      ""
+    ],
+    [
+      "8월 29일 11:30:00+9",
+      "145012위 / 23팀",
+      ""
+    ],
+    [
+      "8월 29일 11:15:00+9",
+      "18202위 / 23팀",
+      ""
+    ],
+    [
+      "8월 29일 11:00:00+9",
+      "103015위 / 23팀",
+      ""
+    ]
+  ],
+  "round": 17,
+  "fetched_at": "2026-08-29T06:01:11.554885Z"
+}

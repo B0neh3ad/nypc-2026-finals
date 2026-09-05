@@ -1,0 +1,2033 @@
+{
+  "source": "opponents/inhyuk_v7.cpp",
+  "params": [
+    {
+      "name": "ENABLE_FOG_ENEMY_HQ_TARGET",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "FOG_ENEMY_HQ_FOLLOW_OWN_LEVEL",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "FOG_ENEMY_HQ_LEVEL_MARGIN",
+      "default": 0,
+      "low": 0,
+      "high": 2,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "EARLY_MASS_CONTACT_MAX_TURN",
+      "default": 40,
+      "low": 0,
+      "high": 80,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "EARLY_MASS_CONTACT_MIN_DAMAGE",
+      "default": 4,
+      "low": 2,
+      "high": 6,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "EARLY_MASS_CONTACT_HOLD_TURNS",
+      "default": 12,
+      "low": 0,
+      "high": 52,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "EARLY_MASS_CONTACT_MIN_HQ_GARRISON",
+      "default": 3,
+      "low": 1,
+      "high": 5,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "BUILD_RESERVE",
+      "default": 510,
+      "low": 255,
+      "high": 765,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "EXPANSION_MOVE_RESERVE",
+      "default": 0,
+      "low": 0,
+      "high": 50,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "NORMAL_EXTRA_GARRISON",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "OPENING_NEUTRAL_FIRST_MAX_TURN",
+      "default": 123,
+      "low": 83,
+      "high": 163,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "OPENING_NEUTRAL_FIRST_TARGET_PERCENT",
+      "default": 82,
+      "low": 57,
+      "high": 100,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "OPENING_NEUTRAL_FIRST_MIN_TARGETS",
+      "default": 11,
+      "low": 6,
+      "high": 16,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "OPENING_NEUTRAL_FIRST_MAX_TARGETS",
+      "default": 19,
+      "low": 10,
+      "high": 28,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "OPENING_RELAX_HQ_KEEP_UNTIL_TURN",
+      "default": 48,
+      "low": 8,
+      "high": 88,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "OPENING_DELAY_HQ_UPGRADE_UNTIL_TURN",
+      "default": 30,
+      "low": 0,
+      "high": 70,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "OPENING_DELAY_HQ_UPGRADE_MIN_HANDLED",
+      "default": 3,
+      "low": 0,
+      "high": 43,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "OPENING_FORCE_TRAIN_IF_STUCK",
+      "default": 0,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_ALLGAME_NEUTRAL_ONE_BY_ONE",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "RESERVE_BASE_GOLD_FOR_NEUTRAL_CLAIM",
+      "default": 1,
+      "low": 0,
+      "high": 51,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "OPENING_FORCE_TRAIN_NEUTRAL_UNTIL",
+      "default": 30,
+      "low": 0,
+      "high": 70,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "CENTER_SECOND_BASE_REGION",
+      "default": -1,
+      "low": -3,
+      "high": 1,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "CENTER_SECOND_BASE_SKIP_IF_ENEMY_FIRST",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "CENTER_SECOND_BASE_BUILD_FIRST",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "CENTER_SECOND_BASE_FORCE_ANCHOR",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "CENTER_SECOND_BASE_MAX_SEND_PER_TURN",
+      "default": 1,
+      "low": 0,
+      "high": 41,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "CENTER_SPLIT_ECON_AFTER_TURN",
+      "default": 30,
+      "low": 0,
+      "high": 70,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "CENTER_SPLIT_MAX_FAILED_WAVES",
+      "default": 4,
+      "low": 2,
+      "high": 6,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "THIN_OPENING_MAX_TURN",
+      "default": 46,
+      "low": 6,
+      "high": 86,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "NEUTRAL_DEADLOCK_GRACE_TURNS",
+      "default": 8,
+      "low": 0,
+      "high": 48,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "DEADLOCK_SCOUT_START_TURN",
+      "default": 100,
+      "low": 60,
+      "high": 140,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "DEADLOCK_SCOUT_COOLDOWN",
+      "default": 18,
+      "low": 0,
+      "high": 58,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "DEADLOCK_SCOUT_STALE_TURNS",
+      "default": 35,
+      "low": 0,
+      "high": 75,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "DEADLOCK_SCOUT_MIN_ARMY",
+      "default": 6,
+      "low": 3,
+      "high": 9,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "LATE_HQ_PROBE_START_TURN",
+      "default": 330,
+      "low": 290,
+      "high": 370,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "LATE_HQ_PROBE_MIN_ARMY",
+      "default": 30,
+      "low": 15,
+      "high": 45,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "LATE_HQ_PROBE_ARMY_RATIO",
+      "default": 4,
+      "low": 2,
+      "high": 6,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "LATE_HQ_PROBE_BASE_MARGIN",
+      "default": 4,
+      "low": 2,
+      "high": 6,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "LATE_HQ_PROBE_MAX_LAUNCHES",
+      "default": 12,
+      "low": 6,
+      "high": 18,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "PARTIAL_FINISHER_MAX_UNSEEN_STRONGHOLDS",
+      "default": 2,
+      "low": 0,
+      "high": 4,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "PARTIAL_FINISHER_MIN_ARMY",
+      "default": 30,
+      "low": 15,
+      "high": 45,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "PARTIAL_FINISHER_ARMY_RATIO",
+      "default": 3,
+      "low": 1,
+      "high": 5,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "PARTIAL_FINISHER_BASE_MARGIN",
+      "default": 5,
+      "low": 3,
+      "high": 7,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "PARTIAL_STAGED_ARMY_RATIO",
+      "default": 5,
+      "low": 3,
+      "high": 7,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "PARTIAL_STAGED_BASE_MARGIN",
+      "default": 8,
+      "low": 4,
+      "high": 12,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_HOME_DEFENSE",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "DEFENSE_SAFETY_MARGIN",
+      "default": 0,
+      "low": 0,
+      "high": 2,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "DEFENSE_IMMEDIATE_RADIUS",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "DEFENSE_VISIBLE_STACK_RADIUS",
+      "default": 2,
+      "low": 0,
+      "high": 4,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "DEFENSE_VISIBLE_STACK_THRESHOLD",
+      "default": 3,
+      "low": 1,
+      "high": 5,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "STRATEGIC_HOLD_START_TURN",
+      "default": 140,
+      "low": 100,
+      "high": 180,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "STRATEGIC_HOLD_STACK_RADIUS",
+      "default": 8,
+      "low": 4,
+      "high": 12,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "STRATEGIC_HOLD_STACK_THRESHOLD",
+      "default": 12,
+      "low": 6,
+      "high": 18,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "STRATEGIC_HOLD_ARMY_SHARE_DEN",
+      "default": 2,
+      "low": 1,
+      "high": 4,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "STRATEGIC_HOLD_MEMORY_TURNS",
+      "default": 4,
+      "low": 0,
+      "high": 44,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "DEFENSE_INBOUND_RADIUS",
+      "default": 3,
+      "low": 1,
+      "high": 5,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "DEFENSE_THREAT_MEMORY_TURNS",
+      "default": 8,
+      "low": 0,
+      "high": 48,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "DEFENSE_HARD_ETA",
+      "default": 6,
+      "low": 0,
+      "high": 46,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "DEFENSE_RECALL_EXTRA",
+      "default": 2,
+      "low": 0,
+      "high": 4,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_STACK_ONLY_GUARD",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "STACK_DANGER_COUNT",
+      "default": 4,
+      "low": 2,
+      "high": 6,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "STACK_LOOKAHEAD",
+      "default": 12,
+      "low": 0,
+      "high": 52,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "STACK_TARGET_DANGER_COUNT",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_STACK_ONLY_CLEANUP",
+      "default": 0,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "STACK_CLEANUP_MIN_ENEMY",
+      "default": 2,
+      "low": 0,
+      "high": 4,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "STACK_CLEANUP_MAX_TARGET_ETA",
+      "default": 10,
+      "low": 0,
+      "high": 50,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "STACK_CLEANUP_RATIO_NUM",
+      "default": 2,
+      "low": 0,
+      "high": 4,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "STACK_CLEANUP_RATIO_DEN",
+      "default": 1,
+      "low": 1,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "STACK_CLEANUP_EXTRA_MARGIN",
+      "default": 3,
+      "low": 1,
+      "high": 5,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "STACK_CLEANUP_MIN_WAVE",
+      "default": 5,
+      "low": 3,
+      "high": 7,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "STACK_CLEANUP_MAX_SEND_EXTRA",
+      "default": 2,
+      "low": 0,
+      "high": 4,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_RETREAT_PINNED_SKIP",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_RETREAT_LOSING_FIGHTS",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_RETREAT_FOLLOWUP_BLOCK",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "RETREAT_SIM_DAYS",
+      "default": 49,
+      "low": 9,
+      "high": 89,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "HOME_DEFENSE_HQ_KEEP_MARGIN",
+      "default": 0,
+      "low": 0,
+      "high": 2,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "HOME_DEFENSE_KEEP_WORKERS",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "EVAC_GUARD_MIN_STACK",
+      "default": 3,
+      "low": 1,
+      "high": 5,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "DEFENSE_KEEP_EXTRA_WORKERS",
+      "default": 5,
+      "low": 3,
+      "high": 7,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "OWNED_BASE_RESCUE_EXTRA",
+      "default": 2,
+      "low": 0,
+      "high": 4,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "EVACFIX_F1",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "EVACFIX_F2",
+      "default": 0,
+      "low": 0,
+      "high": 2,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "EVACFIX_STACK_HOPS",
+      "default": 3,
+      "low": 1,
+      "high": 5,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "EVACFIX_LATE_SLACK",
+      "default": 3,
+      "low": 1,
+      "high": 5,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_OWNED_BASE_EMERGENCY_DEFENSE",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "BASE_SIM_DEFENSE_THREAT_RADIUS",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "OWNED_BASE_CRISIS_RELEASE_RADIUS",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "OWNED_BASE_REINFORCE_SOURCE_RADIUS",
+      "default": 10,
+      "low": 5,
+      "high": 15,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "OWNED_BASE_MAX_EMERGENCY_PULL",
+      "default": 5,
+      "low": 3,
+      "high": 7,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "OWNED_BASE_CRISIS_SIM_DAYS",
+      "default": 22,
+      "low": 0,
+      "high": 62,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "HQ_DONOR_KEEP",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_HQ_EXACT_SIM_DEFENSE",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "HQ_SIM_DEFENSE_THREAT_RADIUS",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "HQ_SIM_DEFENSE_DAYS",
+      "default": 25,
+      "low": 0,
+      "high": 65,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "HQ_SIM_DEFENSE_MAX_RECALL",
+      "default": 11,
+      "low": 6,
+      "high": 16,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "HQ_SIM_DEFENSE_TRAIN_CAP",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "HQ_SIM_DEFENSE_RECALL_EXTRA",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "HQ_SIM_DEFENSE_MIN_RECALL",
+      "default": 0,
+      "low": 0,
+      "high": 2,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_UNSAVABLE_BASE_FALLBACK",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "FALLBACK_MAX_PULL",
+      "default": 5,
+      "low": 3,
+      "high": 7,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "FALLBACK_TRAIN_CAP",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "FALLBACK_EVACUATE_OWNED_BASE_GARRISON",
+      "default": 0,
+      "low": 0,
+      "high": 2,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_ENEMY_BASE_CAPTURE",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_ENEMY_HQ_ATTACK",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "MIN_ATTACK_WAVE_UNITS",
+      "default": 5,
+      "low": 3,
+      "high": 7,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "ENABLE_RALLY_STACK_ATTACK",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "RALLY_STACK_STAGE_START_TURN",
+      "default": 75,
+      "low": 35,
+      "high": 115,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "RALLY_STACK_HQ_ATTACK_START_TURN",
+      "default": 141,
+      "low": 101,
+      "high": 181,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "RALLY_STACK_MIN_LAUNCH_UNITS",
+      "default": 4,
+      "low": 2,
+      "high": 6,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "RALLY_STACK_MAX_STAGE_MOVES_PER_TURN",
+      "default": 11,
+      "low": 0,
+      "high": 51,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "RALLY_STACK_KEEP_AT_RALLY",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_ANCHOR_ROUTE_ATTACKS",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ANCHOR_ROUTE_START_TURN",
+      "default": 133,
+      "low": 93,
+      "high": 173,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "ANCHOR_ROUTE_ANCHOR_MODE",
+      "default": 3,
+      "low": 1,
+      "high": 5,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ANCHOR_ROUTE_MAX_STAGE_PER_TURN",
+      "default": 13,
+      "low": 0,
+      "high": 53,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ANCHOR_ROUTE_KEEP_EXTRA_AT_SOURCE",
+      "default": 0,
+      "low": 0,
+      "high": 2,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ANCHOR_ROUTE_MAX_STACK",
+      "default": 20,
+      "low": 10,
+      "high": 30,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ANCHOR_ROUTE_LEAVE_AT_ANCHOR",
+      "default": 9,
+      "low": 5,
+      "high": 13,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ANCHOR_ROUTE_USE_ONLY_BASE_ANCHOR",
+      "default": 0,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ANCHOR_ROUTE_MIN_ATTACKERS",
+      "default": 30,
+      "low": 15,
+      "high": 45,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "ANCHOR_ROUTE_MIN_OWNED_BASES_TO_ATTACK",
+      "default": 13,
+      "low": 7,
+      "high": 19,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "ANCHOR_ROUTE_START_BASES_A_NUM",
+      "default": 2,
+      "low": 0,
+      "high": 4,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ANCHOR_ROUTE_START_BASES_A_DEN",
+      "default": 8,
+      "low": 4,
+      "high": 12,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ANCHOR_ROUTE_START_BASES_B",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ANCHOR_ROUTE_STICKY_ANCHOR",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ANCHOR_ROUTE_BUILD_CAPTURED_FIRST",
+      "default": 0,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ANCHOR_ROUTE_RETURN_AFTER_CAPTURE",
+      "default": 0,
+      "low": 0,
+      "high": 2,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ANCHOR_ROUTE_LEAVE_ON_CAPTURE",
+      "default": 7,
+      "low": 4,
+      "high": 10,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ANCHOR_ROUTE_STAGE_WITHOUT_READY_TARGET",
+      "default": 0,
+      "low": 0,
+      "high": 2,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ANCHOR_ROUTE_STRICT_OFFENSE_ONLY",
+      "default": 0,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "BASE_DUMMY_HP_DIV",
+      "default": 1,
+      "low": 1,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "MAX_CAPTURE_SIM_DAYS",
+      "default": 86,
+      "low": 46,
+      "high": 126,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "HQ_SIM_MAX_REINFORCE_DAYS",
+      "default": 68,
+      "low": 28,
+      "high": 108,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "OFFENSE_RESPONSE_GUARD",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "OFFENSE_RESPONSE_DELAY",
+      "default": 2,
+      "low": 0,
+      "high": 42,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "OFFENSE_RESPONSE_MAX_HOPS",
+      "default": 4,
+      "low": 2,
+      "high": 6,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "OFFENSE_RESPONSE_MIN_STACK",
+      "default": 2,
+      "low": 0,
+      "high": 4,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "OFFENSE_RESPONSE_SIM_DAYS",
+      "default": 35,
+      "low": 0,
+      "high": 75,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_OFFENSE_REINF_TRAVEL",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "OFFENSE_REINF_MIN_STACK",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "OFFENSE_REINF_ARRIVAL_SLACK",
+      "default": 0,
+      "low": 0,
+      "high": 2,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_REATTACK_MEMORY",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "REATTACK_FORGET_TURNS",
+      "default": 30,
+      "low": 0,
+      "high": 70,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "FINISHER_START_TURN",
+      "default": 300,
+      "low": 260,
+      "high": 340,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "FINISHER_MIN_ARMY",
+      "default": 8,
+      "low": 4,
+      "high": 12,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "FINISHER_ARMY_RATIO_NUM",
+      "default": 2,
+      "low": 0,
+      "high": 4,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "FINISHER_ARMY_RATIO_DEN",
+      "default": 1,
+      "low": 1,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "FINISHER_MAX_ENEMY_INCOME",
+      "default": 150,
+      "low": 75,
+      "high": 225,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "FINISHER_HOME_SAFE_RADIUS",
+      "default": 4,
+      "low": 2,
+      "high": 6,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "FINISHER_CAP_TRAIN",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "FINISHER_HQ_TARGET_RELAX",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "FINISHER_STREAM",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "FINISHER_ATTACK_WAIT_FOR_HQ",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "FINISHER_KILL_SLACK_TURNS",
+      "default": 15,
+      "low": 0,
+      "high": 55,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_HP_RATIO_TRAIN_PRIORITY",
+      "default": 0,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "HP_RATIO_TRAIN_PRIORITY_X_NUM",
+      "default": 7,
+      "low": 4,
+      "high": 10,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "HP_RATIO_TRAIN_PRIORITY_X_DEN",
+      "default": 9,
+      "low": 5,
+      "high": 13,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "HP_RATIO_TRAIN_PRIORITY_MAX_TURN",
+      "default": 127,
+      "low": 87,
+      "high": 167,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "HP_RATIO_TRAIN_PRIORITY_MIN_ENEMY_HP",
+      "default": 2,
+      "low": 0,
+      "high": 4,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "HP_RATIO_TRAIN_PRIORITY_MAX_PER_TURN",
+      "default": 1,
+      "low": 0,
+      "high": 41,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "HP_RATIO_TRAIN_PRIORITY_KEEP_SOLVENT",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENEMY_STACK_FORCE_ATTACK_COUNT",
+      "default": 4,
+      "low": 2,
+      "high": 6,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENEMY_GATHER_FORCE_TRAIN_COUNT",
+      "default": 3,
+      "low": 1,
+      "high": 5,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENEMY_GATHER_FORCE_TRAIN_MARGIN",
+      "default": 0,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_ANCHOR_RUSH",
+      "default": 0,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_ARMY_PARITY_TRAIN",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ARMY_PARITY_MARGIN",
+      "default": -2,
+      "low": -4,
+      "high": 0,
+      "kind": "int",
+      "step": 1,
+      "active": true
+    },
+    {
+      "name": "PARITY_MAX_OPP_CAP_RATIO",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_BASE_EMERGENCY_TRAIN",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ANCHOR_RUSH_TRAIN_PER_TURN",
+      "default": 2,
+      "low": 0,
+      "high": 42,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ANCHOR_RUSH_SOLVENCY_DAYS",
+      "default": 3,
+      "low": 0,
+      "high": 43,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ANCHOR_RUSH_WAVE",
+      "default": 6,
+      "low": 3,
+      "high": 9,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ANCHOR_RUSH_LEAVE_HOME",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ANCHOR_RUSH_BASE_LEVEL",
+      "default": 2,
+      "low": 0,
+      "high": 4,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENDGAME_ATTACK_TURNS",
+      "default": 17,
+      "low": 0,
+      "high": 57,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENDGAME_GOLD_SAFETY",
+      "default": 47,
+      "low": 0,
+      "high": 97,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENDGAME_SYNC_START_TURN",
+      "default": 344,
+      "low": 304,
+      "high": 384,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENDGAME_SYNC_ARRIVAL_TURN",
+      "default": 300,
+      "low": 260,
+      "high": 340,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_FORWARD_STAGING",
+      "default": 0,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "FORWARD_STAGING_MAX_PER_SOURCE",
+      "default": 2,
+      "low": 0,
+      "high": 4,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "FORWARD_STAGING_EXTRA_CAP",
+      "default": 9,
+      "low": 5,
+      "high": 13,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_UNDERFILLED_BUILDING_WORKER_SUPPORT",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "UNDERFILLED_WORKER_TRAIN_MAX_DEFICIT",
+      "default": 66,
+      "low": 33,
+      "high": 99,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_FINAL_HQ5_ANCHOR_DISPATCH",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "FINAL_HQ5_ANCHOR_MAX_MOVES_PER_TURN",
+      "default": 18,
+      "low": 0,
+      "high": 58,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "FINAL_HQ5_ANCHOR_DESIRED_STACK",
+      "default": 24,
+      "low": 12,
+      "high": 36,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_POST_ATTACK_NEUTRAL_WAIT_CONTROL",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "POST_ATTACK_MAX_NEUTRAL_WAITERS",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "POST_ATTACK_WAITERS_TO_UNDERFILLED_FIRST",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "HQ_SAVE_LOOKAHEAD_TURNS",
+      "default": 5,
+      "low": 0,
+      "high": 45,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "FORCE_HQ2_SAVE_TURN",
+      "default": 85,
+      "low": 45,
+      "high": 125,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "LATE_TIEBREAK_START_TURN",
+      "default": 304,
+      "low": 264,
+      "high": 344,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "LATE_TIEBREAK_SAVE_LOOKAHEAD_TURNS",
+      "default": 28,
+      "low": 0,
+      "high": 68,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "LATE_SAVER_START_TURN",
+      "default": 280,
+      "low": 240,
+      "high": 320,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "LATE_SAVER_LOOKAHEAD_TURNS",
+      "default": 12,
+      "low": 0,
+      "high": 52,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "LATE_SAVER_THREAT_RADIUS",
+      "default": 2,
+      "low": 0,
+      "high": 4,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "LATE_SAVER_THREAT_MIN",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "LATE_SAVER_RELEASE_ON_THREAT",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "LATE_SAVER_GATHER_RADIUS",
+      "default": 6,
+      "low": 3,
+      "high": 9,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "LATE_SAVER_LOCK",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "CASH_DUMP_TRAIN_START_TURN",
+      "default": 244,
+      "low": 204,
+      "high": 284,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "CASH_DUMP_MIN_GOLD",
+      "default": 899,
+      "low": 450,
+      "high": 1348,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "FINAL_HQ5_CASH_DUMP_START_TURN",
+      "default": 348,
+      "low": 308,
+      "high": 388,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "FINAL_HQ5_HARD_DUMP_START_TURN",
+      "default": 390,
+      "low": 350,
+      "high": 400,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "FINAL_HQ5_MIN_TRAIN_GOLD",
+      "default": 129,
+      "low": 65,
+      "high": 193,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_OPENING_NEUTRAL_FIRST",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_CENTER_SECOND_BASE",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_THIN_OPENING_GRAB",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "HARD_DEFENSE_SKIPS_ECONOMY_MOVES",
+      "default": 0,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_PINGPONG_ORDER_LEDGER",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "PINGPONG_VETO_TURNS",
+      "default": 0,
+      "low": 0,
+      "high": 40,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_INITIAL_SYNC_CAPTURE",
+      "default": 0,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_NO_DRIP_ATTACK",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_STRICT_SAME_ETA_ATTACK_WAVE",
+      "default": 0,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "ENABLE_HQ_SURPLUS_ANCHOR_PRESSURE",
+      "default": 1,
+      "low": 0,
+      "high": 1,
+      "kind": "bool",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "HQ_SURPLUS_ANCHOR_START_TURN",
+      "default": 60,
+      "low": 20,
+      "high": 100,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "HQ_SURPLUS_ANCHOR_MAX_MOVES_PER_TURN",
+      "default": 8,
+      "low": 0,
+      "high": 48,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "HQ_SURPLUS_ANCHOR_KEEP_EXTRA",
+      "default": 0,
+      "low": 0,
+      "high": 2,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    },
+    {
+      "name": "HQ_SURPLUS_ANCHOR_THREAT_MARGIN",
+      "default": 1,
+      "low": 0,
+      "high": 3,
+      "kind": "int",
+      "step": 1,
+      "active": false
+    }
+  ],
+  "excluded": [
+    {
+      "name": "DEFENSE_MAX_TRACKED_ID",
+      "default": 10000,
+      "why": "튜닝 금지(구조/플래그)"
+    },
+    {
+      "name": "RETREAT_MAX_UNITS",
+      "default": 233,
+      "why": "튜닝 금지(구조/플래그)"
+    },
+    {
+      "name": "FINAL_HQ5_ANCHOR_DISPATCH_START_TURN",
+      "default": "FINAL_HQ5_CASH_DUMP_START_TURN",
+      "why": "정수가 아님(심볼 참조)"
+    },
+    {
+      "name": "FINAL_HQ5_REPAIR_RESERVE_GOLD",
+      "default": "HQ_HEAL_COST",
+      "why": "정수가 아님(심볼 참조)"
+    },
+    {
+      "name": "MOVE_FLAG_ALLOW_CONTESTED_SOURCE",
+      "default": 1,
+      "why": "튜닝 금지(구조/플래그)"
+    },
+    {
+      "name": "MOVE_FLAG_ALLOW_DANGER_TARGET",
+      "default": 2,
+      "why": "튜닝 금지(구조/플래그)"
+    },
+    {
+      "name": "MOVE_FLAG_IGNORE_STACK_GUARD",
+      "default": 4,
+      "why": "튜닝 금지(구조/플래그)"
+    },
+    {
+      "name": "MOVE_FLAG_ALLOW_NEUTRAL_BUILDER_EXIT",
+      "default": 8,
+      "why": "튜닝 금지(구조/플래그)"
+    },
+    {
+      "name": "MOVE_FLAG_IGNORE_PINGPONG",
+      "default": 16,
+      "why": "튜닝 금지(구조/플래그)"
+    },
+    {
+      "name": "MOVE_FLAG_IGNORE_PATH_BLOCK",
+      "default": 32,
+      "why": "튜닝 금지(구조/플래그)"
+    },
+    {
+      "name": "MAX_COMBAT_SIM_UNITS",
+      "default": 2048,
+      "why": "튜닝 금지(구조/플래그)"
+    }
+  ]
+}

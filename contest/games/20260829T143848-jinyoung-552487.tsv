@@ -1,0 +1,11 @@
+game	seed	map	left	right	winner
+1	100	219/15	./v7.cpp	/srv/nypc/TEAM/round_14_1415/inhyuk_v6.cpp	/srv/nypc/TEAM/round_14_1415/inhyuk_v6.cpp
+2	101	207/17	/srv/nypc/TEAM/round_14_1415/inhyuk_v6.cpp	./v7.cpp	./v7.cpp
+3	102	219/15	./v7.cpp	/srv/nypc/TEAM/round_14_1415/inhyuk_v6.cpp	DRAW
+4	103	207/17	/srv/nypc/TEAM/round_14_1415/inhyuk_v6.cpp	./v7.cpp	/srv/nypc/TEAM/round_14_1415/inhyuk_v6.cpp
+5	104	225/17	./v7.cpp	/srv/nypc/TEAM/round_14_1415/inhyuk_v6.cpp	/srv/nypc/TEAM/round_14_1415/inhyuk_v6.cpp
+6	105	243/19	/srv/nypc/TEAM/round_14_1415/inhyuk_v6.cpp	./v7.cpp	/srv/nypc/TEAM/round_14_1415/inhyuk_v6.cpp
+7	106	233/15	./v7.cpp	/srv/nypc/TEAM/round_14_1415/inhyuk_v6.cpp	DRAW
+8	107	237/15	/srv/nypc/TEAM/round_14_1415/inhyuk_v6.cpp	./v7.cpp	/srv/nypc/TEAM/round_14_1415/inhyuk_v6.cpp
+9	108	221/15	./v7.cpp	/srv/nypc/TEAM/round_14_1415/inhyuk_v6.cpp	/srv/nypc/TEAM/round_14_1415/inhyuk_v6.cpp
+10	109	201/17	/srv/nypc/TEAM/round_14_1415/inhyuk_v6.cpp	./v7.cpp	/srv/nypc/TEAM/round_14_1415/inhyuk_v6.cpp

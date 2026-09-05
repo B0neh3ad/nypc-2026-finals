@@ -1,0 +1,33 @@
+{
+  "id": "133325",
+  "submitted_at": "8월 29일 13:07:55+9",
+  "result": "3.5승 ( 3 / 1 / 1 ) 1800?",
+  "note": "-",
+  "logs": [
+    {
+      "game": 1,
+      "url": "(만료된 프리사인드 URL 제거됨)",
+      "pgn": "[P1 \"Team CPG\"]\n[P2 \"Sample AI #1\"]\n[Result \"1/2-1/2\"]"
+    },
+    {
+      "game": 2,
+      "url": "(만료된 프리사인드 URL 제거됨)",
+      "pgn": "[P1 \"Team CPG\"]\n[P2 \"Sample AI #2\"]\n[Result \"1-0\"]"
+    },
+    {
+      "game": 3,
+      "url": "(만료된 프리사인드 URL 제거됨)",
+      "pgn": "[P1 \"Team CPG\"]\n[P2 \"Sample AI #3\"]\n[Result \"0-1\"]"
+    },
+    {
+      "game": 4,
+      "url": "(만료된 프리사인드 URL 제거됨)",
+      "pgn": "[P1 \"Team CPG\"]\n[P2 \"Sample AI #4\"]\n[Result \"1-0\"]"
+    },
+    {
+      "game": 5,
+      "url": "(만료된 프리사인드 URL 제거됨)",
+      "pgn": "[P1 \"Team CPG\"]\n[P2 \"Sample AI #5\"]\n[Result \"1-0\"]"
+    }
+  ]
+}

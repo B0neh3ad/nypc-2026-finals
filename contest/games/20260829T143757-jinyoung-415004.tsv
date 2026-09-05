@@ -1,0 +1,5 @@
+game	seed	map	left	right	winner
+1	300	215/15	./v7.cpp	/srv/nypc/TEAM/old/v6.cpp	/srv/nypc/TEAM/old/v6.cpp
+2	301	249/17	/srv/nypc/TEAM/old/v6.cpp	./v7.cpp	DRAW
+3	302	201/17	./v7.cpp	/srv/nypc/TEAM/old/v6.cpp	DRAW
+4	303	185/15	/srv/nypc/TEAM/old/v6.cpp	./v7.cpp	/srv/nypc/TEAM/old/v6.cpp

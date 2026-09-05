@@ -1,0 +1,33 @@
+{
+  "comment": "탐색 설정. CLI 플래그가 여기보다 우선한다. tiebreak_weight: 승패가 포화된 패널에서 쓰는 미세 신호의 가중치(0이면 순수 평균 승률).",
+  "bot_src": "/home/jinyoung/shared/MoE/opponents/inhyuk_v7.cpp",
+  "opponents": [
+    "babsang",
+    "sehyeon7",
+    "sehyeon_v3",
+    "inhyuk_v6",
+    "sr_reinf"
+  ],
+  "opponent_weights": {},
+  "games_per_opponent": 8,
+  "game_timeout": 180,
+  "seed_base": 20260829,
+  "rng_seed": 7,
+  "n_init": 24,
+  "batch": 8,
+  "max_iters": null,
+  "max_seconds": 480,
+  "n_candidates": 4000,
+  "perturb_sigma": 0.12,
+  "ucb_kappa": 1.5,
+  "gbt_models": 6,
+  "gbt_trees": 300,
+  "gbt_depth": 3,
+  "gbt_lr": 0.05,
+  "gbt_subsample": 0.8,
+  "reeval_top": 3,
+  "reeval_seed_shift": 777777,
+  "moe_hook_regex": "M->N\\s*=\\s*atoi\\([^)]*\\);",
+  "tiebreak_weight": 0.05,
+  "opponent_note": "inhyuk_v7(자기자신, 0.500 고정)과 jinsu_rush(1.000 포화)는 기울기가 0 이라 뺐다. 러시 신호는 sr_reinf 가 담당."
+}

@@ -1,0 +1,4 @@
+work/
+bundle/
+__pycache__/
+*.pyc

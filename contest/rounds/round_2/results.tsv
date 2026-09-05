@@ -1,0 +1,20 @@
+battle_id	game	opponent	opp_perf	outcome	side	pgn_result	log
+675872	1	고양이와 집사	1700	WIN	RIGHT	0-1	battle_675872_g1_right.log
+675845	1	빔앤권	1630	WIN	RIGHT	0-1	battle_675845_g1_right.log
+675855	1	Re:Entropy	1620	WIN	RIGHT	0-1	battle_675855_g1_right.log
+675795	1	안녕하세요민이입니다잘부탁드립니다	1570	WIN	RIGHT	0-1	battle_675795_g1_right.log
+675895	1	Decagrammaton	1450	WIN	LEFT	1-0	battle_675895_g1_left.log
+675896	1	DeepRed	1420	WIN	LEFT	1-0	battle_675896_g1_left.log
+675879	1	역대급 물로켓	1420	WIN	RIGHT	0-1	battle_675879_g1_right.log
+675897	1	deepsick	1330	WIN	LEFT	1-0	battle_675897_g1_left.log
+675890	1	C_4=K_{2,2}	1310	WIN	RIGHT	0-1	battle_675890_g1_right.log
+675747	1	thanhchauns2	1220	WIN	RIGHT	0-1	battle_675747_g1_right.log
+675729	1	0262	1110	WIN	RIGHT	0-1	battle_675729_g1_right.log
+675834	1	예쁜 말 고운 말 - 1558	960	WIN	RIGHT	0-1	battle_675834_g1_right.log
+675864	1	Dorillas	900	WIN	RIGHT	0-1	battle_675864_g1_right.log
+675764	1	돌	2130	DRAW	RIGHT	1/2-1/2	battle_675764_g1_right.log
+675885	1	윤호와 함께 춤을	1750	DRAW	RIGHT	1/2-1/2	battle_675885_g1_right.log
+675809	1	모지리들	1750	DRAW	RIGHT	1/2-1/2	battle_675809_g1_right.log
+675780	1	따뜻한밥상	1690	DRAW	RIGHT	1/2-1/2	battle_675780_g1_right.log
+675898	1	NEXT NATION	1630	DRAW	LEFT	1/2-1/2	battle_675898_g1_left.log
+675822	1	봇이지 뭐	1780	LOSS	RIGHT	1-0	battle_675822_g1_right.log

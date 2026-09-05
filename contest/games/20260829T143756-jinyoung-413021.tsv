@@ -1,0 +1,5 @@
+game	seed	map	left	right	winner
+1	200	219/17	./v7.cpp	sample	./v7.cpp
+2	201	233/17	sample	./v7.cpp	./v7.cpp
+3	202	241/15	./v7.cpp	sample	./v7.cpp
+4	203	183/13	sample	./v7.cpp	./v7.cpp
