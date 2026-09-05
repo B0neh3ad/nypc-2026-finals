@@ -1,4 +1,6 @@
-# NYPC 2026 Master Track Finals (Team CPG)
+# NYPC 2026 Master Track Finals
+
+Team CPG (Jinsu Kim, Inhyuk Park, Sehyeon Park, Jinyoung Park)
 
 **Bronze Award (Nexon Foundation Chairman's Award), NYPC 2026 Master Track**
 
@@ -73,7 +75,7 @@ Rather than writing a bot, I owned the basis on which the whole team could judge
 - **Parameter search operations**: ran map-size-specific parameter search on the h200
   cluster (Slurm)
 
-### Inhyeok: main bot development (final submission)
+### Inhyuk: main bot development (final submission)
 
 Advanced the primary bot across eight generations, `inhyuk_v1` through `v8`, and
 completed the **final submission `inhyuk_v8.cpp`**. He parameterized defensive
@@ -86,7 +88,7 @@ the source.
 Early in the contest he produced `new_rule_baseline` by porting the qualifier bot to
 the Finals rules (400 days, fog of war), which **gave the team a starting point**. He
 then developed the `sehyeon_v1` through `v7` line independently, competing against
-Inhyeok's line; in the middle rounds his line was the strongest we had.
+Inhyuk's line; in the middle rounds his line was the strongest we had.
 
 ### Jinyoung: opponent reproduction, search framework
 
