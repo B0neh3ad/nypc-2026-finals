@@ -1,4 +1,6 @@
-# NYPC 2026 Master Track Qualification Round (Team CPG)
+# NYPC 2026 Master Track Qualification Round
+
+Team CPG (Jinsu Kim, Inhyuk Park, Sehyeon Park, Jinyoung Park)
 
 **Passed the NYPC 2026 Master Track Qualification Round and advanced to the Finals**
 
