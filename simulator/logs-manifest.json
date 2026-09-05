@@ -1,0 +1,1922 @@
+[
+  {
+    "path": "logs/round_3/battle_59120.log",
+    "round": "round 3",
+    "name": "battle_59120.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_3/battle_59265.log",
+    "round": "round 3",
+    "name": "battle_59265.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_3/battle_59393.log",
+    "round": "round 3",
+    "name": "battle_59393.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_3/battle_59528.log",
+    "round": "round 3",
+    "name": "battle_59528.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_3/battle_59692.log",
+    "round": "round 3",
+    "name": "battle_59692.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_3/battle_59803.log",
+    "round": "round 3",
+    "name": "battle_59803.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_3/battle_59914.log",
+    "round": "round 3",
+    "name": "battle_59914.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_3/battle_60031.log",
+    "round": "round 3",
+    "name": "battle_60031.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_3/battle_60153.log",
+    "round": "round 3",
+    "name": "battle_60153.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_3/battle_60287.log",
+    "round": "round 3",
+    "name": "battle_60287.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_3/battle_60411.log",
+    "round": "round 3",
+    "name": "battle_60411.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_3/battle_60545.log",
+    "round": "round 3",
+    "name": "battle_60545.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_3/battle_60679.log",
+    "round": "round 3",
+    "name": "battle_60679.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_3/battle_60822.log",
+    "round": "round 3",
+    "name": "battle_60822.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_3/battle_60967.log",
+    "round": "round 3",
+    "name": "battle_60967.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_3/battle_61114.log",
+    "round": "round 3",
+    "name": "battle_61114.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_3/battle_61238.log",
+    "round": "round 3",
+    "name": "battle_61238.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_3/battle_61383.log",
+    "round": "round 3",
+    "name": "battle_61383.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_3/battle_61505.log",
+    "round": "round 3",
+    "name": "battle_61505.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_3/battle_61652.log",
+    "round": "round 3",
+    "name": "battle_61652.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_4/battle_61816.log",
+    "round": "round 4",
+    "name": "battle_61816.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_4/battle_61973.log",
+    "round": "round 4",
+    "name": "battle_61973.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_4/battle_62127.log",
+    "round": "round 4",
+    "name": "battle_62127.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_4/battle_62281.log",
+    "round": "round 4",
+    "name": "battle_62281.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_4/battle_62478.log",
+    "round": "round 4",
+    "name": "battle_62478.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_4/battle_62641.log",
+    "round": "round 4",
+    "name": "battle_62641.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_4/battle_62803.log",
+    "round": "round 4",
+    "name": "battle_62803.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_4/battle_62978.log",
+    "round": "round 4",
+    "name": "battle_62978.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_4/battle_63167.log",
+    "round": "round 4",
+    "name": "battle_63167.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_4/battle_63359.log",
+    "round": "round 4",
+    "name": "battle_63359.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_4/battle_63519.log",
+    "round": "round 4",
+    "name": "battle_63519.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_4/battle_63682.log",
+    "round": "round 4",
+    "name": "battle_63682.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_4/battle_63850.log",
+    "round": "round 4",
+    "name": "battle_63850.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_4/battle_64018.log",
+    "round": "round 4",
+    "name": "battle_64018.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_4/battle_64183.log",
+    "round": "round 4",
+    "name": "battle_64183.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_4/battle_64366.log",
+    "round": "round 4",
+    "name": "battle_64366.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_4/battle_64547.log",
+    "round": "round 4",
+    "name": "battle_64547.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_4/battle_64714.log",
+    "round": "round 4",
+    "name": "battle_64714.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_4/battle_64885.log",
+    "round": "round 4",
+    "name": "battle_64885.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_4/battle_65066.log",
+    "round": "round 4",
+    "name": "battle_65066.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_5/battle_65239.log",
+    "round": "round 5",
+    "name": "battle_65239.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_5/battle_65426.log",
+    "round": "round 5",
+    "name": "battle_65426.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_5/battle_65612.log",
+    "round": "round 5",
+    "name": "battle_65612.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_5/battle_65823.log",
+    "round": "round 5",
+    "name": "battle_65823.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_5/battle_65997.log",
+    "round": "round 5",
+    "name": "battle_65997.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_5/battle_66211.log",
+    "round": "round 5",
+    "name": "battle_66211.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_5/battle_66383.log",
+    "round": "round 5",
+    "name": "battle_66383.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_5/battle_66557.log",
+    "round": "round 5",
+    "name": "battle_66557.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_5/battle_66742.log",
+    "round": "round 5",
+    "name": "battle_66742.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_5/battle_66929.log",
+    "round": "round 5",
+    "name": "battle_66929.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_5/battle_67129.log",
+    "round": "round 5",
+    "name": "battle_67129.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_5/battle_67309.log",
+    "round": "round 5",
+    "name": "battle_67309.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_5/battle_67509.log",
+    "round": "round 5",
+    "name": "battle_67509.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_5/battle_67687.log",
+    "round": "round 5",
+    "name": "battle_67687.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_5/battle_67870.log",
+    "round": "round 5",
+    "name": "battle_67870.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_5/battle_68071.log",
+    "round": "round 5",
+    "name": "battle_68071.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_5/battle_68248.log",
+    "round": "round 5",
+    "name": "battle_68248.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_5/battle_68432.log",
+    "round": "round 5",
+    "name": "battle_68432.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_5/battle_68618.log",
+    "round": "round 5",
+    "name": "battle_68618.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_5/battle_68808.log",
+    "round": "round 5",
+    "name": "battle_68808.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_6/battle_69015.log",
+    "round": "round 6",
+    "name": "battle_69015.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_6/battle_69221.log",
+    "round": "round 6",
+    "name": "battle_69221.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_6/battle_69425.log",
+    "round": "round 6",
+    "name": "battle_69425.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_6/battle_69631.log",
+    "round": "round 6",
+    "name": "battle_69631.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_6/battle_69837.log",
+    "round": "round 6",
+    "name": "battle_69837.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_6/battle_70048.log",
+    "round": "round 6",
+    "name": "battle_70048.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_6/battle_70255.log",
+    "round": "round 6",
+    "name": "battle_70255.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_6/battle_70464.log",
+    "round": "round 6",
+    "name": "battle_70464.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_6/battle_70674.log",
+    "round": "round 6",
+    "name": "battle_70674.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_6/battle_70888.log",
+    "round": "round 6",
+    "name": "battle_70888.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_6/battle_71097.log",
+    "round": "round 6",
+    "name": "battle_71097.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_6/battle_71312.log",
+    "round": "round 6",
+    "name": "battle_71312.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_6/battle_71521.log",
+    "round": "round 6",
+    "name": "battle_71521.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_6/battle_71731.log",
+    "round": "round 6",
+    "name": "battle_71731.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_6/battle_71946.log",
+    "round": "round 6",
+    "name": "battle_71946.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_6/battle_72163.log",
+    "round": "round 6",
+    "name": "battle_72163.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_6/battle_72368.log",
+    "round": "round 6",
+    "name": "battle_72368.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_6/battle_72586.log",
+    "round": "round 6",
+    "name": "battle_72586.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_6/battle_72793.log",
+    "round": "round 6",
+    "name": "battle_72793.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_6/battle_73008.log",
+    "round": "round 6",
+    "name": "battle_73008.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_7/battle_73217.log",
+    "round": "round 7",
+    "name": "battle_73217.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_7/battle_73448.log",
+    "round": "round 7",
+    "name": "battle_73448.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_7/battle_73739.log",
+    "round": "round 7",
+    "name": "battle_73739.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_7/battle_73942.log",
+    "round": "round 7",
+    "name": "battle_73942.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_7/battle_74160.log",
+    "round": "round 7",
+    "name": "battle_74160.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_7/battle_74384.log",
+    "round": "round 7",
+    "name": "battle_74384.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_7/battle_74636.log",
+    "round": "round 7",
+    "name": "battle_74636.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_7/battle_74858.log",
+    "round": "round 7",
+    "name": "battle_74858.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_7/battle_75085.log",
+    "round": "round 7",
+    "name": "battle_75085.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_7/battle_75312.log",
+    "round": "round 7",
+    "name": "battle_75312.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_7/battle_75543.log",
+    "round": "round 7",
+    "name": "battle_75543.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_7/battle_75771.log",
+    "round": "round 7",
+    "name": "battle_75771.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_7/battle_76010.log",
+    "round": "round 7",
+    "name": "battle_76010.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_7/battle_76240.log",
+    "round": "round 7",
+    "name": "battle_76240.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_7/battle_76476.log",
+    "round": "round 7",
+    "name": "battle_76476.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_7/battle_76716.log",
+    "round": "round 7",
+    "name": "battle_76716.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_7/battle_76960.log",
+    "round": "round 7",
+    "name": "battle_76960.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_7/battle_77185.log",
+    "round": "round 7",
+    "name": "battle_77185.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_7/battle_77429.log",
+    "round": "round 7",
+    "name": "battle_77429.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_7/battle_77677.log",
+    "round": "round 7",
+    "name": "battle_77677.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_8/battle_77930.log",
+    "round": "round 8",
+    "name": "battle_77930.log",
+    "result": ""
+  },
+  {
+    "path": "logs/round_8/battle_78166.log",
+    "round": "round 8",
+    "name": "battle_78166.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_8/battle_78392.log",
+    "round": "round 8",
+    "name": "battle_78392.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_8/battle_78638.log",
+    "round": "round 8",
+    "name": "battle_78638.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_8/battle_78875.log",
+    "round": "round 8",
+    "name": "battle_78875.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_8/battle_79109.log",
+    "round": "round 8",
+    "name": "battle_79109.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_8/battle_79336.log",
+    "round": "round 8",
+    "name": "battle_79336.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_8/battle_79561.log",
+    "round": "round 8",
+    "name": "battle_79561.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_8/battle_79822.log",
+    "round": "round 8",
+    "name": "battle_79822.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_8/battle_80081.log",
+    "round": "round 8",
+    "name": "battle_80081.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_8/battle_80308.log",
+    "round": "round 8",
+    "name": "battle_80308.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_8/battle_80551.log",
+    "round": "round 8",
+    "name": "battle_80551.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_8/battle_80805.log",
+    "round": "round 8",
+    "name": "battle_80805.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_8/battle_81070.log",
+    "round": "round 8",
+    "name": "battle_81070.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_8/battle_81311.log",
+    "round": "round 8",
+    "name": "battle_81311.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_8/battle_81531.log",
+    "round": "round 8",
+    "name": "battle_81531.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_8/battle_81755.log",
+    "round": "round 8",
+    "name": "battle_81755.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_8/battle_81981.log",
+    "round": "round 8",
+    "name": "battle_81981.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_8/battle_82214.log",
+    "round": "round 8",
+    "name": "battle_82214.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_8/battle_82441.log",
+    "round": "round 8",
+    "name": "battle_82441.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_9/battle_83367.log",
+    "round": "round 9",
+    "name": "battle_83367.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/battle_83622.log",
+    "round": "round 9",
+    "name": "battle_83622.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_9/battle_83870.log",
+    "round": "round 9",
+    "name": "battle_83870.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/battle_84155.log",
+    "round": "round 9",
+    "name": "battle_84155.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/battle_84396.log",
+    "round": "round 9",
+    "name": "battle_84396.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_9/battle_84653.log",
+    "round": "round 9",
+    "name": "battle_84653.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_9/battle_84899.log",
+    "round": "round 9",
+    "name": "battle_84899.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/battle_85149.log",
+    "round": "round 9",
+    "name": "battle_85149.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/battle_85398.log",
+    "round": "round 9",
+    "name": "battle_85398.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/battle_85675.log",
+    "round": "round 9",
+    "name": "battle_85675.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/battle_85948.log",
+    "round": "round 9",
+    "name": "battle_85948.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/battle_86199.log",
+    "round": "round 9",
+    "name": "battle_86199.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_9/battle_86450.log",
+    "round": "round 9",
+    "name": "battle_86450.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/battle_86723.log",
+    "round": "round 9",
+    "name": "battle_86723.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_9/battle_86975.log",
+    "round": "round 9",
+    "name": "battle_86975.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/battle_87243.log",
+    "round": "round 9",
+    "name": "battle_87243.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_9/battle_87509.log",
+    "round": "round 9",
+    "name": "battle_87509.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_9/battle_87765.log",
+    "round": "round 9",
+    "name": "battle_87765.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/battle_88043.log",
+    "round": "round 9",
+    "name": "battle_88043.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/battle_88290.log",
+    "round": "round 9",
+    "name": "battle_88290.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/draw_0.log",
+    "round": "round 9",
+    "name": "draw_0.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_9/draw_1.log",
+    "round": "round 9",
+    "name": "draw_1.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_9/draw_2.log",
+    "round": "round 9",
+    "name": "draw_2.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_9/lose_0.log",
+    "round": "round 9",
+    "name": "lose_0.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/lose_1.log",
+    "round": "round 9",
+    "name": "lose_1.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/lose_2.log",
+    "round": "round 9",
+    "name": "lose_2.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/lose_3.log",
+    "round": "round 9",
+    "name": "lose_3.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/lose_4.log",
+    "round": "round 9",
+    "name": "lose_4.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/lose_5.log",
+    "round": "round 9",
+    "name": "lose_5.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/win_0.log",
+    "round": "round 9",
+    "name": "win_0.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/win_1.log",
+    "round": "round 9",
+    "name": "win_1.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_9/win_10.log",
+    "round": "round 9",
+    "name": "win_10.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/win_2.log",
+    "round": "round 9",
+    "name": "win_2.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/win_3.log",
+    "round": "round 9",
+    "name": "win_3.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_9/win_4.log",
+    "round": "round 9",
+    "name": "win_4.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/win_5.log",
+    "round": "round 9",
+    "name": "win_5.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/win_6.log",
+    "round": "round 9",
+    "name": "win_6.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_9/win_7.log",
+    "round": "round 9",
+    "name": "win_7.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_9/win_8.log",
+    "round": "round 9",
+    "name": "win_8.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_9/win_9.log",
+    "round": "round 9",
+    "name": "win_9.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_10/battle_88575.log",
+    "round": "round 10",
+    "name": "battle_88575.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_10/battle_88842.log",
+    "round": "round 10",
+    "name": "battle_88842.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_10/battle_89109.log",
+    "round": "round 10",
+    "name": "battle_89109.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_10/battle_89371.log",
+    "round": "round 10",
+    "name": "battle_89371.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_10/battle_89629.log",
+    "round": "round 10",
+    "name": "battle_89629.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_10/battle_89935.log",
+    "round": "round 10",
+    "name": "battle_89935.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_10/battle_90192.log",
+    "round": "round 10",
+    "name": "battle_90192.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_10/battle_90491.log",
+    "round": "round 10",
+    "name": "battle_90491.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_10/battle_90751.log",
+    "round": "round 10",
+    "name": "battle_90751.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_10/battle_91012.log",
+    "round": "round 10",
+    "name": "battle_91012.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_10/battle_91306.log",
+    "round": "round 10",
+    "name": "battle_91306.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_10/battle_91576.log",
+    "round": "round 10",
+    "name": "battle_91576.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_10/battle_91845.log",
+    "round": "round 10",
+    "name": "battle_91845.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_10/battle_92108.log",
+    "round": "round 10",
+    "name": "battle_92108.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_10/battle_92372.log",
+    "round": "round 10",
+    "name": "battle_92372.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_10/battle_92642.log",
+    "round": "round 10",
+    "name": "battle_92642.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_10/battle_92927.log",
+    "round": "round 10",
+    "name": "battle_92927.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_10/battle_93192.log",
+    "round": "round 10",
+    "name": "battle_93192.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_10/battle_93461.log",
+    "round": "round 10",
+    "name": "battle_93461.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_10/battle_93750.log",
+    "round": "round 10",
+    "name": "battle_93750.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_11/battle_100194.log",
+    "round": "round 11",
+    "name": "battle_100194.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_11/battle_100475.log",
+    "round": "round 11",
+    "name": "battle_100475.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_11/battle_100766.log",
+    "round": "round 11",
+    "name": "battle_100766.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_11/battle_101043.log",
+    "round": "round 11",
+    "name": "battle_101043.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_11/battle_101320.log",
+    "round": "round 11",
+    "name": "battle_101320.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_11/battle_95948.log",
+    "round": "round 11",
+    "name": "battle_95948.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_11/battle_96231.log",
+    "round": "round 11",
+    "name": "battle_96231.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_11/battle_96510.log",
+    "round": "round 11",
+    "name": "battle_96510.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_11/battle_96785.log",
+    "round": "round 11",
+    "name": "battle_96785.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_11/battle_97057.log",
+    "round": "round 11",
+    "name": "battle_97057.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_11/battle_97335.log",
+    "round": "round 11",
+    "name": "battle_97335.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_11/battle_97632.log",
+    "round": "round 11",
+    "name": "battle_97632.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_11/battle_97911.log",
+    "round": "round 11",
+    "name": "battle_97911.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_11/battle_98207.log",
+    "round": "round 11",
+    "name": "battle_98207.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_11/battle_98481.log",
+    "round": "round 11",
+    "name": "battle_98481.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_11/battle_98761.log",
+    "round": "round 11",
+    "name": "battle_98761.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_11/battle_99037.log",
+    "round": "round 11",
+    "name": "battle_99037.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_11/battle_99331.log",
+    "round": "round 11",
+    "name": "battle_99331.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_11/battle_99627.log",
+    "round": "round 11",
+    "name": "battle_99627.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_11/battle_99904.log",
+    "round": "round 11",
+    "name": "battle_99904.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_12/battle_103522.log",
+    "round": "round 12",
+    "name": "battle_103522.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_12/battle_103822.log",
+    "round": "round 12",
+    "name": "battle_103822.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_12/battle_104121.log",
+    "round": "round 12",
+    "name": "battle_104121.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_12/battle_104415.log",
+    "round": "round 12",
+    "name": "battle_104415.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_12/battle_104702.log",
+    "round": "round 12",
+    "name": "battle_104702.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_12/battle_105013.log",
+    "round": "round 12",
+    "name": "battle_105013.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_12/battle_105313.log",
+    "round": "round 12",
+    "name": "battle_105313.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_12/battle_105604.log",
+    "round": "round 12",
+    "name": "battle_105604.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_12/battle_105914.log",
+    "round": "round 12",
+    "name": "battle_105914.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_12/battle_106210.log",
+    "round": "round 12",
+    "name": "battle_106210.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_12/battle_106501.log",
+    "round": "round 12",
+    "name": "battle_106501.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_12/battle_106810.log",
+    "round": "round 12",
+    "name": "battle_106810.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_12/battle_107110.log",
+    "round": "round 12",
+    "name": "battle_107110.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_12/battle_107404.log",
+    "round": "round 12",
+    "name": "battle_107404.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_12/battle_107700.log",
+    "round": "round 12",
+    "name": "battle_107700.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_12/battle_108006.log",
+    "round": "round 12",
+    "name": "battle_108006.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_12/battle_108303.log",
+    "round": "round 12",
+    "name": "battle_108303.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_12/battle_108607.log",
+    "round": "round 12",
+    "name": "battle_108607.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_12/battle_108902.log",
+    "round": "round 12",
+    "name": "battle_108902.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_12/battle_109210.log",
+    "round": "round 12",
+    "name": "battle_109210.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_13/battle_109707.log",
+    "round": "round 13",
+    "name": "battle_109707.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_13/battle_110014.log",
+    "round": "round 13",
+    "name": "battle_110014.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_13/battle_110320.log",
+    "round": "round 13",
+    "name": "battle_110320.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_13/battle_110636.log",
+    "round": "round 13",
+    "name": "battle_110636.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_13/battle_110942.log",
+    "round": "round 13",
+    "name": "battle_110942.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_13/battle_111244.log",
+    "round": "round 13",
+    "name": "battle_111244.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_13/battle_111574.log",
+    "round": "round 13",
+    "name": "battle_111574.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_13/battle_111916.log",
+    "round": "round 13",
+    "name": "battle_111916.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_13/battle_112195.log",
+    "round": "round 13",
+    "name": "battle_112195.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_13/battle_112541.log",
+    "round": "round 13",
+    "name": "battle_112541.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_13/battle_112819.log",
+    "round": "round 13",
+    "name": "battle_112819.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_13/battle_113109.log",
+    "round": "round 13",
+    "name": "battle_113109.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_13/battle_113405.log",
+    "round": "round 13",
+    "name": "battle_113405.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_13/battle_113717.log",
+    "round": "round 13",
+    "name": "battle_113717.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_13/battle_114044.log",
+    "round": "round 13",
+    "name": "battle_114044.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_13/battle_114340.log",
+    "round": "round 13",
+    "name": "battle_114340.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_13/battle_114635.log",
+    "round": "round 13",
+    "name": "battle_114635.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_13/battle_114936.log",
+    "round": "round 13",
+    "name": "battle_114936.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_13/battle_115240.log",
+    "round": "round 13",
+    "name": "battle_115240.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_13/battle_115543.log",
+    "round": "round 13",
+    "name": "battle_115543.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_14/battle_117774.log",
+    "round": "round 14",
+    "name": "battle_117774.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_14/battle_118088.log",
+    "round": "round 14",
+    "name": "battle_118088.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_14/battle_118399.log",
+    "round": "round 14",
+    "name": "battle_118399.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_14/battle_118709.log",
+    "round": "round 14",
+    "name": "battle_118709.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_14/battle_119008.log",
+    "round": "round 14",
+    "name": "battle_119008.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_14/battle_119322.log",
+    "round": "round 14",
+    "name": "battle_119322.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_14/battle_119629.log",
+    "round": "round 14",
+    "name": "battle_119629.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_14/battle_119941.log",
+    "round": "round 14",
+    "name": "battle_119941.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_14/battle_120263.log",
+    "round": "round 14",
+    "name": "battle_120263.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_14/battle_120590.log",
+    "round": "round 14",
+    "name": "battle_120590.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_14/battle_120897.log",
+    "round": "round 14",
+    "name": "battle_120897.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_14/battle_121206.log",
+    "round": "round 14",
+    "name": "battle_121206.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_14/battle_121514.log",
+    "round": "round 14",
+    "name": "battle_121514.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_14/battle_121838.log",
+    "round": "round 14",
+    "name": "battle_121838.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_14/battle_122143.log",
+    "round": "round 14",
+    "name": "battle_122143.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_14/battle_122462.log",
+    "round": "round 14",
+    "name": "battle_122462.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_14/battle_122788.log",
+    "round": "round 14",
+    "name": "battle_122788.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_14/battle_123109.log",
+    "round": "round 14",
+    "name": "battle_123109.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_14/battle_123431.log",
+    "round": "round 14",
+    "name": "battle_123431.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_14/battle_123737.log",
+    "round": "round 14",
+    "name": "battle_123737.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_15/battle_125966.log",
+    "round": "round 15",
+    "name": "battle_125966.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_15/battle_126286.log",
+    "round": "round 15",
+    "name": "battle_126286.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_15/battle_126603.log",
+    "round": "round 15",
+    "name": "battle_126603.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_15/battle_126918.log",
+    "round": "round 15",
+    "name": "battle_126918.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_15/battle_127220.log",
+    "round": "round 15",
+    "name": "battle_127220.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_15/battle_127532.log",
+    "round": "round 15",
+    "name": "battle_127532.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_15/battle_127879.log",
+    "round": "round 15",
+    "name": "battle_127879.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_15/battle_128187.log",
+    "round": "round 15",
+    "name": "battle_128187.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_15/battle_128510.log",
+    "round": "round 15",
+    "name": "battle_128510.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_15/battle_128840.log",
+    "round": "round 15",
+    "name": "battle_128840.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_15/battle_129174.log",
+    "round": "round 15",
+    "name": "battle_129174.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_15/battle_129487.log",
+    "round": "round 15",
+    "name": "battle_129487.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_15/battle_129814.log",
+    "round": "round 15",
+    "name": "battle_129814.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_15/battle_130134.log",
+    "round": "round 15",
+    "name": "battle_130134.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_15/battle_130446.log",
+    "round": "round 15",
+    "name": "battle_130446.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_15/battle_130781.log",
+    "round": "round 15",
+    "name": "battle_130781.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_15/battle_131095.log",
+    "round": "round 15",
+    "name": "battle_131095.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_15/battle_131429.log",
+    "round": "round 15",
+    "name": "battle_131429.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_15/battle_131742.log",
+    "round": "round 15",
+    "name": "battle_131742.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_15/battle_132056.log",
+    "round": "round 15",
+    "name": "battle_132056.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_16/battle_132407.log",
+    "round": "round 16",
+    "name": "battle_132407.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_16/battle_132738.log",
+    "round": "round 16",
+    "name": "battle_132738.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_16/battle_133127.log",
+    "round": "round 16",
+    "name": "battle_133127.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_16/battle_133415.log",
+    "round": "round 16",
+    "name": "battle_133415.log",
+    "result": ""
+  },
+  {
+    "path": "logs/round_16/battle_133727.log",
+    "round": "round 16",
+    "name": "battle_133727.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_16/battle_134055.log",
+    "round": "round 16",
+    "name": "battle_134055.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_16/battle_134383.log",
+    "round": "round 16",
+    "name": "battle_134383.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_16/battle_134703.log",
+    "round": "round 16",
+    "name": "battle_134703.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_16/battle_135038.log",
+    "round": "round 16",
+    "name": "battle_135038.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_16/battle_135362.log",
+    "round": "round 16",
+    "name": "battle_135362.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_16/battle_135710.log",
+    "round": "round 16",
+    "name": "battle_135710.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_16/battle_136058.log",
+    "round": "round 16",
+    "name": "battle_136058.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_16/battle_136380.log",
+    "round": "round 16",
+    "name": "battle_136380.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_16/battle_136706.log",
+    "round": "round 16",
+    "name": "battle_136706.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_16/battle_137032.log",
+    "round": "round 16",
+    "name": "battle_137032.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_16/battle_137362.log",
+    "round": "round 16",
+    "name": "battle_137362.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_16/battle_137701.log",
+    "round": "round 16",
+    "name": "battle_137701.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_16/battle_138027.log",
+    "round": "round 16",
+    "name": "battle_138027.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_16/battle_138370.log",
+    "round": "round 16",
+    "name": "battle_138370.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_16/battle_138711.log",
+    "round": "round 16",
+    "name": "battle_138711.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_17/battle_139049.log",
+    "round": "round 17",
+    "name": "battle_139049.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_17/battle_139384.log",
+    "round": "round 17",
+    "name": "battle_139384.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_17/battle_139795.log",
+    "round": "round 17",
+    "name": "battle_139795.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_17/battle_140085.log",
+    "round": "round 17",
+    "name": "battle_140085.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_17/battle_140402.log",
+    "round": "round 17",
+    "name": "battle_140402.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_17/battle_140756.log",
+    "round": "round 17",
+    "name": "battle_140756.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_17/battle_141074.log",
+    "round": "round 17",
+    "name": "battle_141074.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_17/battle_141440.log",
+    "round": "round 17",
+    "name": "battle_141440.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_17/battle_141756.log",
+    "round": "round 17",
+    "name": "battle_141756.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_17/battle_142090.log",
+    "round": "round 17",
+    "name": "battle_142090.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_17/battle_142455.log",
+    "round": "round 17",
+    "name": "battle_142455.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_17/battle_142771.log",
+    "round": "round 17",
+    "name": "battle_142771.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_17/battle_143097.log",
+    "round": "round 17",
+    "name": "battle_143097.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_17/battle_143451.log",
+    "round": "round 17",
+    "name": "battle_143451.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_17/battle_143793.log",
+    "round": "round 17",
+    "name": "battle_143793.log",
+    "result": "LEFT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_17/battle_144113.log",
+    "round": "round 17",
+    "name": "battle_144113.log",
+    "result": "DRAW TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_17/battle_144451.log",
+    "round": "round 17",
+    "name": "battle_144451.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_17/battle_144778.log",
+    "round": "round 17",
+    "name": "battle_144778.log",
+    "result": "RIGHT_WIN TURN_LIMIT"
+  },
+  {
+    "path": "logs/round_17/battle_145133.log",
+    "round": "round 17",
+    "name": "battle_145133.log",
+    "result": "RIGHT_WIN HQ_DESTROYED"
+  },
+  {
+    "path": "logs/round_17/battle_145490.log",
+    "round": "round 17",
+    "name": "battle_145490.log",
+    "result": "LEFT_WIN TURN_LIMIT"
+  }
+]

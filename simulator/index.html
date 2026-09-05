@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEXT NATION Log Simulator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lexend:wght@500;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar" data-fullscreen-hide>
+        <div class="brand">
+          <div class="brand-mark">NN</div>
+          <div>
+            <h1>NEXT NATION</h1>
+            <p id="loadedName">No log loaded</p>
+          </div>
+        </div>
+
+        <div class="log-picker">
+          <input id="logSearch" class="field search" type="search" placeholder="Filter logs" autocomplete="off" />
+          <select id="logSelect" class="field"></select>
+          <button id="loadLogBtn" class="btn primary" type="button" title="Load selected log">Load</button>
+          <label class="btn" title="Open a .log file">
+            File
+            <input id="fileInput" type="file" accept=".log,text/plain" hidden />
+          </label>
+        </div>
+
+        <div class="result-pill" id="resultPill">RESULT</div>
+      </header>
+
+      <main class="workspace">
+        <aside class="analysis-panel" id="analysisPanel" data-fullscreen-hide>
+          <button id="analysisPin" class="panel-tab left" type="button" title="Pin analysis panel">ANALYSIS</button>
+          <div class="panel-card">
+            <div class="panel-header">
+              <h2>ANALYSIS</h2>
+              <button id="toggleAnalysis" class="icon-btn" type="button" title="Pin panel">pin</button>
+            </div>
+
+            <section class="panel-section">
+              <h3>Options</h3>
+              <label class="check-row">
+                <input id="optEdges" type="checkbox" checked />
+                <span>Show edges</span>
+              </label>
+              <label class="check-row">
+                <input id="optCellNumbers" type="checkbox" />
+                <span>Show cell numbers</span>
+              </label>
+              <label class="check-row">
+                <input id="optAllMoves" type="checkbox" />
+                <span>Show all movement paths</span>
+              </label>
+            </section>
+
+            <section class="panel-section">
+              <h3>Status</h3>
+              <div id="statusGrid" class="status-grid"></div>
+            </section>
+
+            <section class="panel-section">
+              <h3>Trends</h3>
+              <div class="chart-block">
+                <div class="chart-title">HQ HP</div>
+                <svg id="chartHp" class="mini-chart" viewBox="0 0 320 92" aria-label="HQ HP trend"></svg>
+              </div>
+              <div class="chart-block">
+                <div class="chart-title">Gold</div>
+                <svg id="chartGold" class="mini-chart" viewBox="0 0 320 92" aria-label="Gold trend"></svg>
+              </div>
+              <div class="chart-block">
+                <div class="chart-title">Warriors</div>
+                <svg id="chartWarriors" class="mini-chart" viewBox="0 0 320 92" aria-label="Warrior count trend"></svg>
+              </div>
+            </section>
+          </div>
+        </aside>
+
+        <section class="battlefield">
+          <svg id="mapSvg" class="map-svg" role="img" aria-label="NEXT NATION battlefield"></svg>
+
+          <div class="hud top-left" data-fullscreen-hide>
+            <div class="turn-readout">
+              <span id="turnLabel">Turn 0</span>
+              <strong id="sceneLabel">idle</strong>
+            </div>
+            <div class="team-strip">
+              <div class="team-card team-a">
+                <span>A</span>
+                <b id="teamAGold">500</b>
+                <small id="teamAHq">HQ 10/10</small>
+              </div>
+              <div class="team-card team-b">
+                <span>B</span>
+                <b id="teamBGold">500</b>
+                <small id="teamBHq">HQ 10/10</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-tools" data-fullscreen-hide>
+            <button id="fitMapBtn" class="icon-btn" type="button" title="Fit map">fit</button>
+            <button id="fullscreenBtn" class="icon-btn" type="button" title="Toggle fullscreen">full</button>
+          </div>
+        </section>
+
+        <aside class="info-panel" id="infoPanel" data-fullscreen-hide>
+          <button id="infoPin" class="panel-tab right" type="button" title="Pin info panel">INFO</button>
+          <div class="panel-card">
+            <div class="panel-header">
+              <h2>INFO</h2>
+              <button id="toggleInfo" class="icon-btn" type="button" title="Pin panel">pin</button>
+            </div>
+
+            <section class="panel-section collapsible open" data-panel="input">
+              <button class="section-toggle" type="button">Log Input</button>
+              <div class="section-body input-body">
+                <div class="editor-actions">
+                  <button id="parseTextBtn" class="btn small primary" type="button">Parse</button>
+                  <button id="copyLogBtn" class="btn small" type="button">Copy</button>
+                  <button id="downloadLogBtn" class="btn small" type="button">Download</button>
+                </div>
+                <textarea id="logText" spellcheck="false" placeholder="Paste a NEXT NATION .log here"></textarea>
+                <div id="parseError" class="parse-error" hidden></div>
+              </div>
+            </section>
+
+            <section class="panel-section collapsible open" data-panel="turn">
+              <button class="section-toggle" type="button">Turn Details</button>
+              <div id="turnDetails" class="section-body details-body"></div>
+            </section>
+
+            <section class="panel-section collapsible open" data-panel="cell">
+              <button class="section-toggle" type="button">Cell Details</button>
+              <div id="cellDetails" class="section-body details-body"></div>
+            </section>
+          </div>
+        </aside>
+      </main>
+
+      <footer class="transport" data-fullscreen-hide>
+        <button id="jumpStartBtn" class="icon-btn" type="button" title="Jump to start">|&lt;</button>
+        <button id="stepBackBtn" class="icon-btn" type="button" title="Step back">&lt;</button>
+        <button id="playBtn" class="play-btn" type="button" title="Play or pause">Play</button>
+        <button id="stepForwardBtn" class="icon-btn" type="button" title="Step forward">&gt;</button>
+        <button id="jumpEndBtn" class="icon-btn" type="button" title="Jump to end">&gt;|</button>
+        <input id="timeline" type="range" min="0" max="0" value="0" />
+        <div class="speed-group" role="group" aria-label="Playback speed">
+          <button class="speed-btn" type="button" data-speed="0.5">0.5x</button>
+          <button class="speed-btn active" type="button" data-speed="1">1x</button>
+          <button class="speed-btn" type="button" data-speed="2">2x</button>
+          <button class="speed-btn" type="button" data-speed="4">4x</button>
+          <button class="speed-btn" type="button" data-speed="8">8x</button>
+        </div>
+        <div id="timelineText" class="timeline-text">0 / 0</div>
+      </footer>
+
+      <div id="dropOverlay" class="drop-overlay" hidden>Drop .log file here</div>
+    </div>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,1280 @@
+{
+  "round": "중간평가 #25 · 7월 7일 10:00:00+9",
+  "round_number": 25,
+  "round_id": 154,
+  "round_time_kst": "2026-07-07T10:00:00+09:00",
+  "submission": {
+    "id": 92655,
+    "submitted_at_kst_text": "7월 7일 09:30:56+9",
+    "result_text": "7.5승 ( 7 / 1 / 0 ) 2580",
+    "note": "MoE v1"
+  },
+  "result": {
+    "rating": 2590,
+    "rank": 5,
+    "participants": 864,
+    "rank_text": "5위 / 864팀"
+  },
+  "battles": [
+    {
+      "battle_id": "201069",
+      "opponent_team": "스시텐카이 정윤성 화이팅",
+      "opponent_performance": 760,
+      "opponent_performance_text": "760",
+      "my_record": "1전 1승 (100.00%)",
+      "compile_status": "컴파일 성공",
+      "games": [
+        {
+          "game": 1,
+          "my_result": "승리",
+          "log": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.018,
+            "time_text": "0.018초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.018초 2MiB"
+          },
+          "p1": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.018,
+            "time_text": "0.018초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.018초 2MiB"
+          },
+          "p2": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.009,
+            "time_text": "0.009초",
+            "memory_mib": 4,
+            "memory_text": "4MiB",
+            "raw_text": "0.0 0.009초 4MiB"
+          },
+          "my_side": "1P",
+          "my_code": {
+            "side": "1P",
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.018,
+            "time_text": "0.018초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.018초 2MiB"
+          },
+          "opponent_code": {
+            "side": "2P",
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.009,
+            "time_text": "0.009초",
+            "memory_mib": 4,
+            "memory_text": "4MiB",
+            "raw_text": "0.0 0.009초 4MiB"
+          },
+          "raw_text": "1승리1.00.018초2MiB1.00.018초2MiB0.00.009초4MiB"
+        }
+      ]
+    },
+    {
+      "battle_id": "201463",
+      "opponent_team": "lain",
+      "opponent_performance": 1810,
+      "opponent_performance_text": "1810",
+      "my_record": "1전 1승 (100.00%)",
+      "compile_status": "컴파일 성공",
+      "games": [
+        {
+          "game": 1,
+          "my_result": "승리",
+          "log": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.011,
+            "time_text": "0.011초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.011초 2MiB"
+          },
+          "p1": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.011,
+            "time_text": "0.011초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.011초 2MiB"
+          },
+          "p2": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.006,
+            "time_text": "0.006초",
+            "memory_mib": 4,
+            "memory_text": "4MiB",
+            "raw_text": "0.0 0.006초 4MiB"
+          },
+          "my_side": "1P",
+          "my_code": {
+            "side": "1P",
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.011,
+            "time_text": "0.011초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.011초 2MiB"
+          },
+          "opponent_code": {
+            "side": "2P",
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.006,
+            "time_text": "0.006초",
+            "memory_mib": 4,
+            "memory_text": "4MiB",
+            "raw_text": "0.0 0.006초 4MiB"
+          },
+          "raw_text": "1승리1.00.011초2MiB1.00.011초2MiB0.00.006초4MiB"
+        }
+      ]
+    },
+    {
+      "battle_id": "201853",
+      "opponent_team": "컴피의컴피한하루",
+      "opponent_performance": 1910,
+      "opponent_performance_text": "1910",
+      "my_record": "1전 1승 (100.00%)",
+      "compile_status": "컴파일 성공",
+      "games": [
+        {
+          "game": 1,
+          "my_result": "승리",
+          "log": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.012,
+            "time_text": "0.012초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.012초 2MiB"
+          },
+          "p1": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.012,
+            "time_text": "0.012초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.012초 2MiB"
+          },
+          "p2": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.187,
+            "time_text": "0.187초",
+            "memory_mib": 63,
+            "memory_text": "63MiB",
+            "raw_text": "0.0 0.187초 63MiB"
+          },
+          "my_side": "1P",
+          "my_code": {
+            "side": "1P",
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.012,
+            "time_text": "0.012초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.012초 2MiB"
+          },
+          "opponent_code": {
+            "side": "2P",
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.187,
+            "time_text": "0.187초",
+            "memory_mib": 63,
+            "memory_text": "63MiB",
+            "raw_text": "0.0 0.187초 63MiB"
+          },
+          "raw_text": "1승리1.00.012초2MiB1.00.012초2MiB0.00.187초63MiB"
+        }
+      ]
+    },
+    {
+      "battle_id": "202242",
+      "opponent_team": "몽재",
+      "opponent_performance": 2300,
+      "opponent_performance_text": "2300",
+      "my_record": "1전 1승 (100.00%)",
+      "compile_status": "컴파일 성공",
+      "games": [
+        {
+          "game": 1,
+          "my_result": "승리",
+          "log": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.009,
+            "time_text": "0.009초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.009초 2MiB"
+          },
+          "p1": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.009,
+            "time_text": "0.009초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.009초 2MiB"
+          },
+          "p2": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.008,
+            "time_text": "0.008초",
+            "memory_mib": 4,
+            "memory_text": "4MiB",
+            "raw_text": "0.0 0.008초 4MiB"
+          },
+          "my_side": "1P",
+          "my_code": {
+            "side": "1P",
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.009,
+            "time_text": "0.009초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.009초 2MiB"
+          },
+          "opponent_code": {
+            "side": "2P",
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.008,
+            "time_text": "0.008초",
+            "memory_mib": 4,
+            "memory_text": "4MiB",
+            "raw_text": "0.0 0.008초 4MiB"
+          },
+          "raw_text": "1승리1.00.009초2MiB1.00.009초2MiB0.00.008초4MiB"
+        }
+      ]
+    },
+    {
+      "battle_id": "202633",
+      "opponent_team": "Ahnen erbe",
+      "opponent_performance": 2330,
+      "opponent_performance_text": "2330",
+      "my_record": "1전 1승 (100.00%)",
+      "compile_status": "컴파일 성공",
+      "games": [
+        {
+          "game": 1,
+          "my_result": "승리",
+          "log": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.016,
+            "time_text": "0.016초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.016초 2MiB"
+          },
+          "p1": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.016,
+            "time_text": "0.016초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.016초 2MiB"
+          },
+          "p2": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.118,
+            "time_text": "0.118초",
+            "memory_mib": 14,
+            "memory_text": "14MiB",
+            "raw_text": "0.0 0.118초 14MiB"
+          },
+          "my_side": "1P",
+          "my_code": {
+            "side": "1P",
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.016,
+            "time_text": "0.016초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.016초 2MiB"
+          },
+          "opponent_code": {
+            "side": "2P",
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.118,
+            "time_text": "0.118초",
+            "memory_mib": 14,
+            "memory_text": "14MiB",
+            "raw_text": "0.0 0.118초 14MiB"
+          },
+          "raw_text": "1승리1.00.016초2MiB1.00.016초2MiB0.00.118초14MiB"
+        }
+      ]
+    },
+    {
+      "battle_id": "203018",
+      "opponent_team": "clem",
+      "opponent_performance": 2500,
+      "opponent_performance_text": "2500",
+      "my_record": "1전 1승 (100.00%)",
+      "compile_status": "컴파일 성공",
+      "games": [
+        {
+          "game": 1,
+          "my_result": "승리",
+          "log": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.012,
+            "time_text": "0.012초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.012초 2MiB"
+          },
+          "p1": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.009,
+            "time_text": "0.009초",
+            "memory_mib": 4,
+            "memory_text": "4MiB",
+            "raw_text": "0.0 0.009초 4MiB"
+          },
+          "p2": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.012,
+            "time_text": "0.012초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.012초 2MiB"
+          },
+          "my_side": "2P",
+          "my_code": {
+            "side": "2P",
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.012,
+            "time_text": "0.012초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.012초 2MiB"
+          },
+          "opponent_code": {
+            "side": "1P",
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.009,
+            "time_text": "0.009초",
+            "memory_mib": 4,
+            "memory_text": "4MiB",
+            "raw_text": "0.0 0.009초 4MiB"
+          },
+          "raw_text": "1승리1.00.012초2MiB0.00.009초4MiB1.00.012초2MiB"
+        }
+      ]
+    },
+    {
+      "battle_id": "203407",
+      "opponent_team": "안녕하세요민이입니다잘부탁드립니다",
+      "opponent_performance": 2790,
+      "opponent_performance_text": "2790",
+      "my_record": "1전 0승 (0.00%)",
+      "compile_status": "컴파일 성공",
+      "games": [
+        {
+          "game": 1,
+          "my_result": "패배",
+          "log": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.004,
+            "time_text": "0.004초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "0.0 0.004초 2MiB"
+          },
+          "p1": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.207,
+            "time_text": "0.207초",
+            "memory_mib": 37,
+            "memory_text": "37MiB",
+            "raw_text": "1.0 0.207초 37MiB"
+          },
+          "p2": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.004,
+            "time_text": "0.004초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "0.0 0.004초 2MiB"
+          },
+          "my_side": "2P",
+          "my_code": {
+            "side": "2P",
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.004,
+            "time_text": "0.004초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "0.0 0.004초 2MiB"
+          },
+          "opponent_code": {
+            "side": "1P",
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.207,
+            "time_text": "0.207초",
+            "memory_mib": 37,
+            "memory_text": "37MiB",
+            "raw_text": "1.0 0.207초 37MiB"
+          },
+          "raw_text": "1패배0.00.004초2MiB1.00.207초37MiB0.00.004초2MiB"
+        }
+      ]
+    },
+    {
+      "battle_id": "203814",
+      "opponent_team": "규호 한그릇",
+      "opponent_performance": 2330,
+      "opponent_performance_text": "2330",
+      "my_record": "1전 1승 (100.00%)",
+      "compile_status": "컴파일 성공",
+      "games": [
+        {
+          "game": 1,
+          "my_result": "승리",
+          "log": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.009,
+            "time_text": "0.009초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.009초 2MiB"
+          },
+          "p1": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.009,
+            "time_text": "0.009초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.009초 2MiB"
+          },
+          "p2": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.128,
+            "time_text": "0.128초",
+            "memory_mib": 27,
+            "memory_text": "27MiB",
+            "raw_text": "0.0 0.128초 27MiB"
+          },
+          "my_side": "1P",
+          "my_code": {
+            "side": "1P",
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.009,
+            "time_text": "0.009초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.009초 2MiB"
+          },
+          "opponent_code": {
+            "side": "2P",
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.128,
+            "time_text": "0.128초",
+            "memory_mib": 27,
+            "memory_text": "27MiB",
+            "raw_text": "0.0 0.128초 27MiB"
+          },
+          "raw_text": "1승리1.00.009초2MiB1.00.009초2MiB0.00.128초27MiB"
+        }
+      ]
+    },
+    {
+      "battle_id": "204202",
+      "opponent_team": "캥캥캥캥캥캥",
+      "opponent_performance": 2450,
+      "opponent_performance_text": "2450",
+      "my_record": "1전 0승 (0.00%)",
+      "compile_status": "컴파일 성공",
+      "games": [
+        {
+          "game": 1,
+          "my_result": "패배",
+          "log": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.008,
+            "time_text": "0.008초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "0.0 0.008초 2MiB"
+          },
+          "p1": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.118,
+            "time_text": "0.118초",
+            "memory_mib": 13,
+            "memory_text": "13MiB",
+            "raw_text": "1.0 0.118초 13MiB"
+          },
+          "p2": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.008,
+            "time_text": "0.008초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "0.0 0.008초 2MiB"
+          },
+          "my_side": "2P",
+          "my_code": {
+            "side": "2P",
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.008,
+            "time_text": "0.008초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "0.0 0.008초 2MiB"
+          },
+          "opponent_code": {
+            "side": "1P",
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.118,
+            "time_text": "0.118초",
+            "memory_mib": 13,
+            "memory_text": "13MiB",
+            "raw_text": "1.0 0.118초 13MiB"
+          },
+          "raw_text": "1패배0.00.008초2MiB1.00.118초13MiB0.00.008초2MiB"
+        }
+      ]
+    },
+    {
+      "battle_id": "204607",
+      "opponent_team": "엄마가이거하면넥센취업된대요",
+      "opponent_performance": 2340,
+      "opponent_performance_text": "2340",
+      "my_record": "1전 1승 (100.00%)",
+      "compile_status": "컴파일 성공",
+      "games": [
+        {
+          "game": 1,
+          "my_result": "승리",
+          "log": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.017,
+            "time_text": "0.017초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.017초 2MiB"
+          },
+          "p1": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.017,
+            "time_text": "0.017초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.017초 2MiB"
+          },
+          "p2": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 2.105,
+            "time_text": "2.105초",
+            "memory_mib": 15,
+            "memory_text": "15MiB",
+            "raw_text": "0.0 2.105초 15MiB"
+          },
+          "my_side": "1P",
+          "my_code": {
+            "side": "1P",
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.017,
+            "time_text": "0.017초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.017초 2MiB"
+          },
+          "opponent_code": {
+            "side": "2P",
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 2.105,
+            "time_text": "2.105초",
+            "memory_mib": 15,
+            "memory_text": "15MiB",
+            "raw_text": "0.0 2.105초 15MiB"
+          },
+          "raw_text": "1승리1.00.017초2MiB1.00.017초2MiB0.02.105초15MiB"
+        }
+      ]
+    },
+    {
+      "battle_id": "204997",
+      "opponent_team": "연유",
+      "opponent_performance": 2270,
+      "opponent_performance_text": "2270",
+      "my_record": "1전 0.5승 (50.00%)",
+      "compile_status": "컴파일 성공",
+      "games": [
+        {
+          "game": 1,
+          "my_result": "무승부",
+          "log": {
+            "score_text": "0.5",
+            "score": 0.5,
+            "time_sec": 0.008,
+            "time_text": "0.008초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "0.5 0.008초 2MiB"
+          },
+          "p1": {
+            "score_text": "0.5",
+            "score": 0.5,
+            "time_sec": 0.008,
+            "time_text": "0.008초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "0.5 0.008초 2MiB"
+          },
+          "p2": {
+            "score_text": "0.5",
+            "score": 0.5,
+            "time_sec": 0.007,
+            "time_text": "0.007초",
+            "memory_mib": 4,
+            "memory_text": "4MiB",
+            "raw_text": "0.5 0.007초 4MiB"
+          },
+          "my_side": "1P",
+          "my_code": {
+            "side": "1P",
+            "score_text": "0.5",
+            "score": 0.5,
+            "time_sec": 0.008,
+            "time_text": "0.008초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "0.5 0.008초 2MiB"
+          },
+          "opponent_code": {
+            "side": "2P",
+            "score_text": "0.5",
+            "score": 0.5,
+            "time_sec": 0.007,
+            "time_text": "0.007초",
+            "memory_mib": 4,
+            "memory_text": "4MiB",
+            "raw_text": "0.5 0.007초 4MiB"
+          },
+          "raw_text": "1무승부0.50.008초2MiB0.50.008초2MiB0.50.007초4MiB"
+        }
+      ]
+    },
+    {
+      "battle_id": "205387",
+      "opponent_team": "NOJIWOONG",
+      "opponent_performance": 2510,
+      "opponent_performance_text": "2510",
+      "my_record": "1전 0승 (0.00%)",
+      "compile_status": "컴파일 성공",
+      "games": [
+        {
+          "game": 1,
+          "my_result": "패배",
+          "log": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.012,
+            "time_text": "0.012초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "0.0 0.012초 2MiB"
+          },
+          "p1": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.012,
+            "time_text": "0.012초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "0.0 0.012초 2MiB"
+          },
+          "p2": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 1.362,
+            "time_text": "1.362초",
+            "memory_mib": 4,
+            "memory_text": "4MiB",
+            "raw_text": "1.0 1.362초 4MiB"
+          },
+          "my_side": "1P",
+          "my_code": {
+            "side": "1P",
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.012,
+            "time_text": "0.012초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "0.0 0.012초 2MiB"
+          },
+          "opponent_code": {
+            "side": "2P",
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 1.362,
+            "time_text": "1.362초",
+            "memory_mib": 4,
+            "memory_text": "4MiB",
+            "raw_text": "1.0 1.362초 4MiB"
+          },
+          "raw_text": "1패배0.00.012초2MiB0.00.012초2MiB1.01.362초4MiB"
+        }
+      ]
+    },
+    {
+      "battle_id": "205792",
+      "opponent_team": "올망졸망정말똘망",
+      "opponent_performance": 2210,
+      "opponent_performance_text": "2210",
+      "my_record": "1전 1승 (100.00%)",
+      "compile_status": "컴파일 성공",
+      "games": [
+        {
+          "game": 1,
+          "my_result": "승리",
+          "log": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.01,
+            "time_text": "0.010초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.010초 2MiB"
+          },
+          "p1": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.01,
+            "time_text": "0.010초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.010초 2MiB"
+          },
+          "p2": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.955,
+            "time_text": "0.955초",
+            "memory_mib": 74,
+            "memory_text": "74MiB",
+            "raw_text": "0.0 0.955초 74MiB"
+          },
+          "my_side": "1P",
+          "my_code": {
+            "side": "1P",
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.01,
+            "time_text": "0.010초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.010초 2MiB"
+          },
+          "opponent_code": {
+            "side": "2P",
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.955,
+            "time_text": "0.955초",
+            "memory_mib": 74,
+            "memory_text": "74MiB",
+            "raw_text": "0.0 0.955초 74MiB"
+          },
+          "raw_text": "1승리1.00.010초2MiB1.00.010초2MiB0.00.955초74MiB"
+        }
+      ]
+    },
+    {
+      "battle_id": "206179",
+      "opponent_team": "구웨에엑",
+      "opponent_performance": 2330,
+      "opponent_performance_text": "2330",
+      "my_record": "1전 1승 (100.00%)",
+      "compile_status": "컴파일 성공",
+      "games": [
+        {
+          "game": 1,
+          "my_result": "승리",
+          "log": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.019,
+            "time_text": "0.019초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.019초 2MiB"
+          },
+          "p1": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.019,
+            "time_text": "0.019초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.019초 2MiB"
+          },
+          "p2": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 3.099,
+            "time_text": "3.099초",
+            "memory_mib": 5,
+            "memory_text": "5MiB",
+            "raw_text": "0.0 3.099초 5MiB"
+          },
+          "my_side": "1P",
+          "my_code": {
+            "side": "1P",
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.019,
+            "time_text": "0.019초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.019초 2MiB"
+          },
+          "opponent_code": {
+            "side": "2P",
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 3.099,
+            "time_text": "3.099초",
+            "memory_mib": 5,
+            "memory_text": "5MiB",
+            "raw_text": "0.0 3.099초 5MiB"
+          },
+          "raw_text": "1승리1.00.019초2MiB1.00.019초2MiB0.03.099초5MiB"
+        }
+      ]
+    },
+    {
+      "battle_id": "206568",
+      "opponent_team": "주목주목바로주목주목바로",
+      "opponent_performance": 2110,
+      "opponent_performance_text": "2110",
+      "my_record": "1전 1승 (100.00%)",
+      "compile_status": "컴파일 성공",
+      "games": [
+        {
+          "game": 1,
+          "my_result": "승리",
+          "log": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.022,
+            "time_text": "0.022초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.022초 2MiB"
+          },
+          "p1": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.022,
+            "time_text": "0.022초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.022초 2MiB"
+          },
+          "p2": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.195,
+            "time_text": "0.195초",
+            "memory_mib": 65,
+            "memory_text": "65MiB",
+            "raw_text": "0.0 0.195초 65MiB"
+          },
+          "my_side": "1P",
+          "my_code": {
+            "side": "1P",
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.022,
+            "time_text": "0.022초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.022초 2MiB"
+          },
+          "opponent_code": {
+            "side": "2P",
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.195,
+            "time_text": "0.195초",
+            "memory_mib": 65,
+            "memory_text": "65MiB",
+            "raw_text": "0.0 0.195초 65MiB"
+          },
+          "raw_text": "1승리1.00.022초2MiB1.00.022초2MiB0.00.195초65MiB"
+        }
+      ]
+    },
+    {
+      "battle_id": "206958",
+      "opponent_team": "HLKY",
+      "opponent_performance": 2440,
+      "opponent_performance_text": "2440",
+      "my_record": "1전 1승 (100.00%)",
+      "compile_status": "컴파일 성공",
+      "games": [
+        {
+          "game": 1,
+          "my_result": "승리",
+          "log": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.009,
+            "time_text": "0.009초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.009초 2MiB"
+          },
+          "p1": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.011,
+            "time_text": "0.011초",
+            "memory_mib": 4,
+            "memory_text": "4MiB",
+            "raw_text": "0.0 0.011초 4MiB"
+          },
+          "p2": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.009,
+            "time_text": "0.009초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.009초 2MiB"
+          },
+          "my_side": "2P",
+          "my_code": {
+            "side": "2P",
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.009,
+            "time_text": "0.009초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.009초 2MiB"
+          },
+          "opponent_code": {
+            "side": "1P",
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.011,
+            "time_text": "0.011초",
+            "memory_mib": 4,
+            "memory_text": "4MiB",
+            "raw_text": "0.0 0.011초 4MiB"
+          },
+          "raw_text": "1승리1.00.009초2MiB0.00.011초4MiB1.00.009초2MiB"
+        }
+      ]
+    },
+    {
+      "battle_id": "207348",
+      "opponent_team": "0262",
+      "opponent_performance": 2700,
+      "opponent_performance_text": "2700",
+      "my_record": "1전 1승 (100.00%)",
+      "compile_status": "컴파일 성공",
+      "games": [
+        {
+          "game": 1,
+          "my_result": "승리",
+          "log": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.016,
+            "time_text": "0.016초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.016초 2MiB"
+          },
+          "p1": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 2.229,
+            "time_text": "2.229초",
+            "memory_mib": 84,
+            "memory_text": "84MiB",
+            "raw_text": "0.0 2.229초 84MiB"
+          },
+          "p2": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.016,
+            "time_text": "0.016초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.016초 2MiB"
+          },
+          "my_side": "2P",
+          "my_code": {
+            "side": "2P",
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.016,
+            "time_text": "0.016초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.016초 2MiB"
+          },
+          "opponent_code": {
+            "side": "1P",
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 2.229,
+            "time_text": "2.229초",
+            "memory_mib": 84,
+            "memory_text": "84MiB",
+            "raw_text": "0.0 2.229초 84MiB"
+          },
+          "raw_text": "1승리1.00.016초2MiB0.02.229초84MiB1.00.016초2MiB"
+        }
+      ]
+    },
+    {
+      "battle_id": "207740",
+      "opponent_team": "NEXT NATION",
+      "opponent_performance": 2840,
+      "opponent_performance_text": "2840",
+      "my_record": "1전 0승 (0.00%)",
+      "compile_status": "컴파일 성공",
+      "games": [
+        {
+          "game": 1,
+          "my_result": "패배",
+          "log": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.016,
+            "time_text": "0.016초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "0.0 0.016초 2MiB"
+          },
+          "p1": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.151,
+            "time_text": "0.151초",
+            "memory_mib": 4,
+            "memory_text": "4MiB",
+            "raw_text": "1.0 0.151초 4MiB"
+          },
+          "p2": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.016,
+            "time_text": "0.016초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "0.0 0.016초 2MiB"
+          },
+          "my_side": "2P",
+          "my_code": {
+            "side": "2P",
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.016,
+            "time_text": "0.016초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "0.0 0.016초 2MiB"
+          },
+          "opponent_code": {
+            "side": "1P",
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.151,
+            "time_text": "0.151초",
+            "memory_mib": 4,
+            "memory_text": "4MiB",
+            "raw_text": "1.0 0.151초 4MiB"
+          },
+          "raw_text": "1패배0.00.016초2MiB1.00.151초4MiB0.00.016초2MiB"
+        }
+      ]
+    },
+    {
+      "battle_id": "208139",
+      "opponent_team": "OSS",
+      "opponent_performance": 2480,
+      "opponent_performance_text": "2480",
+      "my_record": "1전 1승 (100.00%)",
+      "compile_status": "컴파일 성공",
+      "games": [
+        {
+          "game": 1,
+          "my_result": "승리",
+          "log": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.006,
+            "time_text": "0.006초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.006초 2MiB"
+          },
+          "p1": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.007,
+            "time_text": "0.007초",
+            "memory_mib": 4,
+            "memory_text": "4MiB",
+            "raw_text": "0.0 0.007초 4MiB"
+          },
+          "p2": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.006,
+            "time_text": "0.006초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.006초 2MiB"
+          },
+          "my_side": "2P",
+          "my_code": {
+            "side": "2P",
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.006,
+            "time_text": "0.006초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.006초 2MiB"
+          },
+          "opponent_code": {
+            "side": "1P",
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.007,
+            "time_text": "0.007초",
+            "memory_mib": 4,
+            "memory_text": "4MiB",
+            "raw_text": "0.0 0.007초 4MiB"
+          },
+          "raw_text": "1승리1.00.006초2MiB0.00.007초4MiB1.00.006초2MiB"
+        }
+      ]
+    },
+    {
+      "battle_id": "208532",
+      "opponent_team": "무키무키만만수",
+      "opponent_performance": 2440,
+      "opponent_performance_text": "2440",
+      "my_record": "1전 1승 (100.00%)",
+      "compile_status": "컴파일 성공",
+      "games": [
+        {
+          "game": 1,
+          "my_result": "승리",
+          "log": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.01,
+            "time_text": "0.010초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.010초 2MiB"
+          },
+          "p1": {
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.01,
+            "time_text": "0.010초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.010초 2MiB"
+          },
+          "p2": {
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.007,
+            "time_text": "0.007초",
+            "memory_mib": 4,
+            "memory_text": "4MiB",
+            "raw_text": "0.0 0.007초 4MiB"
+          },
+          "my_side": "1P",
+          "my_code": {
+            "side": "1P",
+            "score_text": "1.0",
+            "score": 1,
+            "time_sec": 0.01,
+            "time_text": "0.010초",
+            "memory_mib": 2,
+            "memory_text": "2MiB",
+            "raw_text": "1.0 0.010초 2MiB"
+          },
+          "opponent_code": {
+            "side": "2P",
+            "score_text": "0.0",
+            "score": 0,
+            "time_sec": 0.007,
+            "time_text": "0.007초",
+            "memory_mib": 4,
+            "memory_text": "4MiB",
+            "raw_text": "0.0 0.007초 4MiB"
+          },
+          "raw_text": "1승리1.00.010초2MiB1.00.010초2MiB0.00.007초4MiB"
+        }
+      ]
+    }
+  ]
+}
